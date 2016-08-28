@@ -1,0 +1,71 @@
+    1  history
+    2  pwd
+    3  cd documents/
+    4  cd Documents
+    5  pwd
+    6  ls
+    7  git clone https://github.com/amandatanari/TOS
+    8  git status
+    9  mkdir Tugas1
+   10  rmdir Tugas1
+   11  cd TOS
+   12  pwd
+   13  mkdir Tugas1
+   14  cd Tugas1
+   15  pwd
+   16  git status
+   17  git add *
+   18  cd ..
+   19  git add *
+   20  git status
+   21  git push
+   22  git status
+   23  git add *
+   24  git status
+   25  cd Tugas1
+   26  pwd
+   27  ls
+   28  ls -la
+   29  ll
+   30  nano
+   31  vim Coba File Handling Nano
+   32  ll
+   33  touch Coba File Handling Nano
+   34  touc "Coba File Handling Nano"
+   35  touch "Coba File Handling Nano"
+   36  ll
+   37  touch "Coba File Handling Nano"
+   38  ls
+   39  ll
+   40  cp "Coba File Handling Nano"
+   41  cp Home/Documents/TOS/Tugas1/"Coba File Handling Nano" Home/Documents/Tos/Tugas1/nano
+   42  cp "Coba File Handling Nano" cobanano
+   43  mv cobanano CobaNano
+   44  rm "Coba File Handling Nano"
+   45  file CobaNano
+   46  stat CobaNano
+   47  lsattr CobaNano
+   48  chattr
+   49  chattr +
+   50  chattr + CobaNano
+   51  lsattr CobaNano
+   52  chattr -v CobaNano
+   53  lsattr CobaNano
+   54  find CobaNano
+   55  stat CobaNano
+   56  locate CobaNano
+   57  locate coba
+   58  locate nano.save
+   59  which nano.save
+   60  which CobaNano
+   61  whereis nano.save
+   62  whereis coba
+   63  whereis CobaNano
+   64  whereis TOS
+   65  head CobaNano
+   66  tail CobaNano
+   67  more CobaNano
+   68  less CobaNano
+   69  git status
+   70  history
+
