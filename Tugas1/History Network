@@ -1,0 +1,33 @@
+    1  hostname
+    2  ifconfig
+    3  ping amanda
+    4  ping 192.168.10.1
+    5  traceroute https://github.com/amandatanari
+    6  sudo apt install traceroute
+    7  traceroute https://github.com/amandatanari
+    8  tracerout https://github.com/
+    9  traceroute https://github.com
+   10  tracerout www.github.com
+   11  traceroute www.github.com
+   12  netstat
+   13  nmap
+   14  sudo apt install nmap
+   15  nmap
+   16  nmap -v -a github.com
+   17  nmap -v -A github.com
+   18  nmap -v -sn 192.168.0.0/16
+   19  nmap -v -sn 192.168.0.0/8
+   20  nmap -v -iR 10000 -Pn -p 80
+   21  iptable
+   22  iptables
+   23  iptables -h
+   24  iptables -D
+   25  iptables -L
+   26  su
+   27  iptables -L -v
+   28  ftp
+   29  telnet
+   30  ssh
+   31  ssh m26415180@john.petra.ac.id
+   32  history
+
