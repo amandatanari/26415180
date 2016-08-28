@@ -1,0 +1,44 @@
+    1  ll
+    2  chmod
+    3  chmod --help
+    4  ll
+    5  chmod u-w testcat
+    6  ll
+    7  chmod a+x testcat
+    8  ll
+    9  chmod 746 testcat
+   10  ll
+   11  chmod --1 testcat
+   12  chmod 001 testcat
+   13  ll
+   14  chmod 743 testcat
+   15  ll testcat
+   16  chmod g-r testcat
+   17  ll testcat
+   18  chmod o+r testcat
+   19  ll testcat
+   20  chown --help
+   21  whoami
+   22  ll testcat
+   23  chwon root testcat
+   24  chown root testcat
+   25  chown amanda testcat
+   26  ll testcat
+   27  chgrp testcat
+   28  sudo
+   29  su
+   30  su -
+   31  sudo
+   32  sudo -h
+   33  sudo
+   34  sudo -l
+   35  su
+   36  passwd
+   37  su
+   38  who
+   39  w
+   40  finger
+   41  sudo apt install finger
+   42  finger
+   43  whoami
+   44  history
