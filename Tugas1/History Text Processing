@@ -1,0 +1,82 @@
+    1  clear
+    2  history
+    3  git clone
+    4  git clone https://github.com/amandatanari/TOS/Tugas1
+    5  git status
+    6  ll
+    7  cd Documents/TOS/Tugas1
+    8  pwd
+    9  git status
+   10  nano story
+   11  echo story
+   12  echo "History File Handling"
+   13  echo CobaNano
+   14  strings story
+   15  strings CobaNano
+   16  strings "History File Handling"
+   17  cat testcat
+   18  cat >testcat
+   19  rm testcat
+   20  cat testcat
+   21  cat >testcat
+   22  echo testcat
+   23  cat story testcat
+   24  echo story
+   25  strings a story
+   26  strings -n story
+   27  string -a story
+   28  strings -a story
+   29  grep story
+   30  grep a story
+   31  grep sir story
+   32  gerp yes story
+   33  grep yes story
+   34  grep Yes story
+   35  wc
+   36  wc story
+   37  ll story
+   38  $x=10
+   39  $x = 10
+   40  $ x=10
+   41  x=10
+   42  echo coba x
+   43  ecoh coba $x
+   44  echo coba $x
+   45  cp story story2
+   46  cut
+   47  cut story
+   48  cut --help
+   49  cut -c story
+   50  cut -c a story2
+   51  cut -c sir story2
+   52  cut --c story 2
+   53  cut --c s story 2
+   54  cut --char story2
+   55  cut --char yes story2
+   56  cut --char . story2
+   57  paste
+   58  paste --help
+   59  paste story2
+   60  paste CobaNano
+   61  paste -s story2
+   62  paste -z story2
+   63  paste -d story2
+   64  sort story2
+   65  sort
+   66  sort "History File Handling"
+   67  sort --help
+   68  uniq story2
+   69  diff
+   70  diff story 2
+   71  diff story2
+   72  diff story story2
+   73  diff --help
+   74  diff iq story story2
+   75  diff -q story story2
+   76  diff -y story story2
+   77  diff -q story story2
+   78  diff --help
+   79  diff -q story story2
+   80  diff -s story story2
+   81  cat >>story2
+   82  history
