@@ -1,0 +1,40 @@
+    1  ps
+    2  pstree
+    3  top
+    4  htop
+    5  sudo apt install htop
+    6  htop
+    7  pgrep
+    8  pgkill
+    9  pgrep --help
+   10  pgrep -c
+   11  pgrep testcat
+   12  pgrep -c testcat
+   13  kill testcat
+   14  pkill testcat
+   15  kill testcat
+   16  killall
+   17  free
+   18  vmstat
+   19  watch
+   20  watch testcat
+   21  watch -n
+   22  watch -n testcat
+   23  watch -x testcat
+   24  watch -x TOS
+   25  watch -x Documents
+   26  cd ..
+   27  watch -x Tugas1
+   28  cd Tugas1
+   29  watch -n
+   30  watch -c
+   31  watch -b
+   32  watch --beep
+   33  bg
+   34  bg testcat
+   35  bg
+   36  fg
+   37  jobs
+   38  jobs testcat
+   39  history
+
