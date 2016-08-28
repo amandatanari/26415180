@@ -1,0 +1,29 @@
+    1  clear
+    2  touch test1
+    3  tar --help
+    4  tar -cf test1
+    5  nano test1
+    6  tar -cf test1
+    7  tar -cf testtar test1
+    8  tar -cf testtar.tar test1
+    9  rm testtar
+   10  tar -cf testtar.tar
+   11  tar -xf testtar.tar
+   12  zip --help
+   13  zip testzip.zip test1
+   14  unzip testzip.zip
+   15  gzip
+   16  gzip -h
+   17  gzip testzip.zip
+   18  gzip test11
+   19  bunzip2 test11.gz
+   20  bzip2 test11.gz
+   21  bzip2 test1
+   22  rm test1.bz2
+   23  rm test11.gz.bz2
+   24  rm testtar.tar
+   25  rm testzip.zip.gz
+   26  git add *
+   27  git status
+   28  history
+
