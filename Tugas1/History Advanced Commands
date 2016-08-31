@@ -1,0 +1,27 @@
+    1  clear
+    2  history
+    3  date
+    4  cal
+    5  bc
+    6  mc
+    7  sudo apt install mc
+    8  mc
+    9  crontab
+   10  crontab --help
+   11  man crontab
+   12  crontab -e
+   13  at
+   14  sudo apt install at
+   15  at
+   16  sed
+   17  sed -h
+   18  sed --help
+   19  sed -e
+   20  sed -n
+   21  awk
+   22  awk --help
+   23  awk '{print $1, $3}'
+   24  history
+   25  awk 'print'
+   26  awk {print}
+   27  history
