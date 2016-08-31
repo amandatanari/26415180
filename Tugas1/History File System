@@ -1,0 +1,15 @@
+    1  fdisk
+    2  mount
+    3  unmount
+    4  du
+    5  df
+    6  quota
+    7  sudo apt install quota
+    8  quota
+    9  quota -h
+   10  quota -u
+   11  quota -g
+   12  quota -v
+   13  quota -A
+   14  history
+
