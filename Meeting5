@@ -1,0 +1,32 @@
+    1  clear
+    2  nano makanan
+    3  ll
+    4  clear
+    5  cat
+    6  cat >makanan.csv
+    7  cat > makanan.csv
+    8  cat >> makanan.csv
+    9  awk 'begin {print "mulai"} {print} end {print "selesai"} <makanan.csv
+   10  awk 'begin {print "mulai"} {print} end {print "selesai"}' <makanan.csv
+   11  awk 'BEGIN {print "mulai"} {print} END {print "selesai"}' <makanan.csv
+   12  awk 'BEGIN {print "mulai"} printf{"%d: %s %d \n",NR,$0,NF}'END <makanan.csv
+   13  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}'END <makanan.csv
+   14  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}END' <makanan.csv
+   15  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}' <makanan.csv
+   16  history
+   17  nano makanan.csv
+   18  sed 's/ayam/empal' < makanan.csv
+   19  sed 's/ayam/empal/' < makanan.csv
+   20  sed 's/ayam/empal/' < makanan.csv > makanan.csv
+   21  sed 's/ayam/empal/' > makanan.csv
+   22  nano makanan.csv
+   23  sed 's/ayam/empal/' < makanan.csv
+   24  nano makanan.csv
+   25  sed 's/ayam/empal/' < makanan.csv
+   26  sort makanan.csv
+   27  sort -r makanan.csv
+   28  sort -r -g makanan.csv
+   29  sort -r -n -k 2 makanan.csv
+   30  history
+   31  history >>Meeting 4
+   32  history >>Meeting4
