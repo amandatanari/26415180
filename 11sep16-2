@@ -1,0 +1,17 @@
+    2  wc 11sep16-1
+    3  echo wc itu menampilkan jumlah baris, jumlah kata, jumlah byte
+    4  wc -c 11sep16-1
+    5  echo -c hanya menampilkan jumlah byte
+    6  wc -m 11sep16-1
+    7  wc -l 11sep16-1
+    8  wc -L 11sep16-1
+    9  wc -w 11sep16-1
+   10  wc --version
+   11  echo "\n"
+   12  echo test\ntest
+   13  echo print{"\n"}
+   14  printf{"\n"}
+   15  echo printf{"test\n"}
+   16  echo "wc -c jmlh byte, -m jmlh karakter, -l jumlah baris, -L panjang baris terpanjang, -w jumlah kata"
+   17  wc --files 11sep16-1
+   18  echo wc --files itu menampilkan file, gak ada baris barunya

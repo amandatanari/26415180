@@ -1,0 +1,28 @@
+  246  git clone git@github.com/amandatanari/26415180.git
+  247  git clone git@github.com:amandatanari/26415180.git
+  248  cd 26415180
+  249  nano 9september16
+  250  echo man
+  251  man echo
+  252  echo 9september16
+  253  echo -e hai
+  254  man echo
+  255  echo -n
+  256  echo -n lalala
+  257  echo -E lalala
+  258  echo -E ini E besar
+  259  man echo
+  260  echo \v test
+  261  echo /v test
+  262  echo /n test
+  263  man echo
+  264  echo hai \v test
+  265  echo -n -n
+  266  echo -n lalala
+  267  echo -n gak baris baru nanti, anti, jadi langsung nyambung sama baris buat inpt lagi
+  268  echo -e coba yg e kecil
+  269  echo -E coba yg E besar
+  270  echo test\b
+  271  echo test halo \b
+  272  echo "test \b"
+  273  echo \65
