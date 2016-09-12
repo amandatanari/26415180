@@ -12,6 +12,3 @@
   326  echo aaaabcd | awk '{sub(/a+/, "<A>"); print}'
   327  echo aaaabcd | awk '{sub(/a+/, "<cantik>"); print}'
   328  echo aaaabcd | awk '{sub(/b+/, "<cantik>"); print}'
-  329  FS= []
-  330  FS= [ ]
-
