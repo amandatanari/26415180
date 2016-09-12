@@ -1,0 +1,17 @@
+  315  awk 'BEGIN {for (int i=0; i<5; i++) {print("%d", i)}}'
+  316  awk 'BEGIN {for (int i=0; i<5; i++) {printf("%d", i)} }'
+  317  awk 'BEGIN {for (int i=0; i<5; i++) (printf("%d", i)) }'
+  318  awk 'BEGIN (for (int i=0; i<5; i++) (printf("%d", i)) )'
+  319  awk 'BEGIN {(for (int i=0; i<5; i++) (printf("%d", i)) }'
+  320  awk 'BEGIN printf{"halo"}'
+  321  awk 'BEGIN printf{"halo"};'
+  322  ls -lh | awk '{owner = $3; $3=$3 \ " 0wnz"; print $3}' | uniq
+  323  ls -lh | awk '{owner = $3; $3=$3 / " 0wnz"; print $3}' | uniq
+  324  ls -lh | awk '{owner = $3; $3=$3 " 0wnz"; print $3}' | uniq
+  325  echo aaaabcd | awk '{sub(/a+/, \"<A>"); print}'
+  326  echo aaaabcd | awk '{sub(/a+/, "<A>"); print}'
+  327  echo aaaabcd | awk '{sub(/a+/, "<cantik>"); print}'
+  328  echo aaaabcd | awk '{sub(/b+/, "<cantik>"); print}'
+  329  FS= []
+  330  FS= [ ]
+
