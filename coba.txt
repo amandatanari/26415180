@@ -1,0 +1,393 @@
+    1  whoami
+    2  su
+    3  sudo
+    4  help
+    5  :q
+    6  where
+    7  whereis me
+    8  whereis a
+    9  su
+   10  who
+   11  w
+   12  finger
+   13  history
+   14  su
+   15  clear
+   16  top
+   17  clear
+   18  htop
+   19  pstree
+   20  clear
+   21  free
+   22  sudo
+   23  su
+   24  vmstat
+   25  fg
+   26  jobs
+   27  bg
+   28  clear
+   29  hostname
+   30  ifconfig
+   31  ping
+   32  ping 192.168.10.10
+   33  traceroute
+   34  netstat
+   35  nmap
+   36  iptables
+   37  iptables -h
+   38  telnet
+   39  mount
+   40  clear
+   41  du
+   42  df
+   43  quota
+   44  date
+   45  cal
+   46  bc
+   47  clear
+   48  bc
+   49  mc
+   50  crontab
+   51  git clone
+   52  pwd
+   53  cd documents
+   54  cd Document
+   55  cd Document/
+   56  git init
+   57  clear
+   58  git clone
+   59  git clone https://github.com/amandatanari/test
+   60  clear
+   61  git clone https://github.com/amandatanari
+   62  git clone https://github.com/amandatanari/TOS
+   63  pwd
+   64  cd TOS
+   65  pwd
+   66  ll
+   67  mkdir Tugas 1
+   68  rmdir Tugas
+   69  mkdir Tugas1
+   70  cd Tugas1
+   71  pwd
+   72  vim
+   73  sudo apt install vim
+   74  vim
+   75  vimtutor
+   76  vim
+   77  nano
+   78  ls
+   79  touch coba
+   80  file
+   81  file coba
+   82  stat coba
+   83  touch coba
+   84  stat coba
+   85  touch coba
+   86  stat coba
+   87  lsattr
+   88  lsattr coba
+   89  lsattr public
+   90  lsattr Public
+   91  lsattr /Public
+   92  lsattr
+   93  lsattr /Music
+   94  lsattr Music
+   95  chattr
+   96  chattr coba
+   97  chattr -v coba
+   98  chattr = coba
+   99  lsattr
+  100  chattr +coba
+  101  chattr + coba
+  102  lsattr coba
+  103  lsattr
+  104  chattr coba 
+  105  chattr + coba
+  106  lsattr
+  107  find
+  108  find TOS
+  109  find coba
+  110  pwd
+  111  find coba Music
+  112  find Music
+  113  mv coba Documents
+  114  find coba
+  115  find documents
+  116  coba
+  117  locate coba
+  118  which coba
+  119  which
+  120  which Public
+  121  which Music
+  122  which Music/
+  123  where is
+  124  whereis
+  125  whereis coba
+  126  whereis Public
+  127  pwd
+  128  cd document
+  129  cd documents
+  130  cd Documents
+  131  pwd
+  132  ls
+  133  ll
+  134  ls -la
+  135  ls -a
+  136  head coba
+  137  tail coba
+  138  more
+  139  more coba
+  140  more -d coba
+  141  less coba
+  142  history
+  143  nano
+  144  history
+  145  date
+  146  cal
+  147  bc
+  148  mc
+  149  sudo apt install mc
+  150  mc
+  151  crontab
+  152  crontab --help
+  153  man crontab
+  154  crontab -e
+  155  at
+  156  sudo apt install at
+  157  at
+  158  sed
+  159  sed -h
+  160  sed --help
+  161  sed -e
+  162  sed -n
+  163  awk
+  164  awk --help
+  165  awk '{print $1, $3}'
+  166  history
+  167  awk 'print'
+  168  awk {print}
+  169  history
+  170  nano "History Advanced Commands"
+  171  git add .
+  172  git status
+  173  git commit -m "Ini untuk History Advanced Commands"
+  174  git status
+  175  git push
+  176  git status
+  177  passwd
+  178  su
+  179  clear
+  180  nano makanan
+  181  ll
+  182  clear
+  183  cat
+  184  cat >makanan.csv
+  185  cat > makanan.csv
+  186  cat >> makanan.csv
+  187  awk 'begin {print "mulai"} {print} end {print "selesai"} <makanan.csv
+  188  awk 'begin {print "mulai"} {print} end {print "selesai"}' <makanan.csv
+  189  awk 'BEGIN {print "mulai"} {print} END {print "selesai"}' <makanan.csv
+  190  awk 'BEGIN {print "mulai"} printf{"%d: %s %d \n",NR,$0,NF}'END <makanan.csv
+  191  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}'END <makanan.csv
+  192  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}END' <makanan.csv
+  193  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}' <makanan.csv
+  194  history
+  195  nano makanan.csv
+  196  sed 's/ayam/empal' < makanan.csv
+  197  sed 's/ayam/empal/' < makanan.csv
+  198  sed 's/ayam/empal/' < makanan.csv > makanan.csv
+  199  sed 's/ayam/empal/' > makanan.csv
+  200  nano makanan.csv
+  201  sed 's/ayam/empal/' < makanan.csv
+  202  nano makanan.csv
+  203  sed 's/ayam/empal/' < makanan.csv
+  204  sort makanan.csv
+  205  sort -r makanan.csv
+  206  sort -r -g makanan.csv
+  207  sort -r -n -k 2 makanan.csv
+  208  history
+  209  history >>Meeting 4
+  210  history >>Meeting4
+  211  git status
+  212  git add *
+  213  git push
+  214  git status
+  215  git push -m "9/8/2016"
+  216  git push
+  217  git commit -m "9/8/16"
+  218  git status
+  219  git add *
+  220  git push
+  221  git commit -m "9/8/16"
+  222  git status
+  223  git add *
+  224  git status
+  225  git add .
+  226  git status
+  227  git push
+  228  git commit -m "9/8/16"
+  229  git rm Meeting4
+  230  ls
+  231  git commit
+  232  cd ..
+  233  ll
+  234  git status
+  235  git add *
+  236  git status
+  237  git push
+  238  git status
+  239  git commit
+  240  git commit -m "9/8/16"
+  241  git status
+  242  git push 
+  243  git commit -m "9/8/16"
+  244  vim port.sh
+  245  clear
+  246  wc 11sep16-1
+  247  echo wc itu menampilkan jumlah baris, jumlah kata, jumlah byte
+  248  wc -c 11sep16-1
+  249  echo -c hanya menampilkan jumlah byte
+  250  wc -m 11sep16-1
+  251  wc -l 11sep16-1
+  252  wc -L 11sep16-1
+  253  wc -w 11sep16-1
+  254  wc --version
+  255  echo "\n"
+  256  echo test\ntest
+  257  echo print{"\n"}
+  258  printf{"\n"}
+  259  echo printf{"test\n"}
+  260  echo "wc -c jmlh byte, -m jmlh karakter, -l jumlah baris, -L panjang baris terpanjang, -w jumlah kata"
+  261  wc --files 11sep16-1
+  262  echo wc --files itu menampilkan file, gak ada baris barunya
+  263  history
+  264  nano 11sep16-2
+  265  fg
+  266  bg
+  267  nano 11sep16-2
+  268  wc --file 11sep16-1
+  269  wc -c 11sep16-1
+  270  wc -l 11sep16-1
+  271  wc -w 11sep16-1
+  272  wc -L 11sep16-1
+  273  wc 11sep16-1
+  274  wc -m 11sep16-1
+  275  wc -c 11sep16-1
+  276  ll 11sep16-1
+  277  git status
+  278  rname 9september16 11september16
+  279  rename 11september16
+  280  mv 9september16 11september16
+  281  git status
+  282  git push 11sep16-1
+  283  git push .
+  284  git status
+  285  git add 11sep16-1
+  286  git add 11sep16-2
+  287  git add 11september16
+  288  git status
+  289  git commit
+  290  git status
+  291  git push
+  292  git status
+  293  git clone
+  294  git clone git@github.com:amandatanari/26415180.git
+  295  git status
+  296  cd ..
+  297  git clone git@github.com:amandatanari/26415180.git
+  298  cd 26415180
+  299  git status
+  300  git add Meeting4
+  301  git add Meeting5
+  302  git status
+  303  git commit
+  304  git status
+  305  git push
+  306  git status
+  307  git push
+  308  git add Meeting4
+  309  git status
+  310  cd Documents/
+  311  ls
+  312  cd 26415180
+  313  ls -a
+  314  ls
+  315  awk 'BEGIN {for (int i=0; i<5; i++) {print("%d", i)}}'
+  316  awk 'BEGIN {for (int i=0; i<5; i++) {printf("%d", i)} }'
+  317  awk 'BEGIN {for (int i=0; i<5; i++) (printf("%d", i)) }'
+  318  awk 'BEGIN (for (int i=0; i<5; i++) (printf("%d", i)) )'
+  319  awk 'BEGIN {(for (int i=0; i<5; i++) (printf("%d", i)) }'
+  320  awk 'BEGIN printf{"halo"}'
+  321  awk 'BEGIN printf{"halo"};'
+  322  ls -lh | awk '{owner = $3; $3=$3 \ " 0wnz"; print $3}' | uniq
+  323  ls -lh | awk '{owner = $3; $3=$3 / " 0wnz"; print $3}' | uniq
+  324  ls -lh | awk '{owner = $3; $3=$3 " 0wnz"; print $3}' | uniq
+  325  echo aaaabcd | awk '{sub(/a+/, \"<A>"); print}'
+  326  echo aaaabcd | awk '{sub(/a+/, "<A>"); print}'
+  327  echo aaaabcd | awk '{sub(/a+/, "<cantik>"); print}'
+  328  echo aaaabcd | awk '{sub(/b+/, "<cantik>"); print}'
+  329  FS= []
+  330  FS= [ ]
+  331  history
+  332  nano 12sep16-1
+  333  git status
+  334  git push 12sep16-1
+  335  git add 12sep16-1
+  336  git status
+  337  git commit
+  338  git push
+  339  git status
+  340  git push .
+  341  git add 12sep16-1
+  342  git status
+  343  git push
+  344  git pull 12sep16-1
+  345  git add 12sep16
+  346  git status
+  347  git push 12sep16
+  348  git commit
+  349  git status
+  350  git push
+  351  cd ..
+  352  git clone https://github.com/amandatanari
+  353  git clone https://github.com/amandatanari/26415180
+  354  cd 26415180
+  355  ls
+  356  git status
+  357  git push
+  358  git user
+  359  git man
+  360  man git
+  361  history
+  362  nano
+  363  git status
+  364  git push
+  365  git fetch
+  366  git status
+  367  git push
+  368  git push --help
+  369  git status
+  370  git add 12sep16-1
+  371  git status
+  372  git commit
+  373  git status
+  374  git push
+  375  git add Meeting4
+  376  git status
+  377  git add Meeting5
+  378  git status
+  379  gi tpull
+  380  git pull
+  381  git status
+  382  git commit
+  383  git add .
+  384  git status
+  385  git commit
+  386  git rm .git/HEAD
+  387  LL
+  388  ll
+  389  ll .git/
+  390  git rm .git/HEAD
+  391  git status
+  392  echo coba
+  393  history >> coba.txt
