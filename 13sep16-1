@@ -1,0 +1,39 @@
+  316  cd 26415180
+  317  whereis test.sh
+  318  cd
+  319  ls
+  320  cd cd Documents
+  321  cd Documents
+  322  nano test.sh
+  323  ll test.sh
+  324  test
+  325  test.sh
+  326  history
+  327  ./test.sh
+  328  /test.sh
+  329  test.sh
+  330  run test.sh
+  331  test.sh
+  332  Documents/test.sh
+  333  history
+  334  sudo history
+  335  nano refleksi13sep16
+  336  cd -
+  337  nano refleksi13sep16
+  338  string^ ^string2
+  339  ls -d
+  340  ld -d *?
+  341  ld -d */
+  342  cd Document
+  343  cd Documents
+  344  ls -d *?
+  345  ls -d
+  346  ls -d */
+  347  cd 26415180
+  348  whereis refleksi13sep16
+  349  nano refleksi13sep16
+  350  ls */
+  351  ls -d */
+  352  ls */
+  353  nano refleksi13sep16
+

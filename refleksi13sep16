@@ -1,0 +1,5 @@
+sudo !!, !! ini buat menjalankan perintah diatasnya
+untuk mejalankan bash, kalo sudah di folder sesuai file bash nya tinggal kasi '.'
+misal ./test.sh
+ls -d */  hanya memunculkan yg folder
+ls */ memunculkan semua nama file di dalam folder yg ada
