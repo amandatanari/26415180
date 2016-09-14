@@ -1,0 +1,37 @@
+  365  cd Documents/26415180
+  366  nano makanan.csv
+  367  nano makanan_PR4.csv
+  368  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}END' < makanan_PR4.csv
+  369  cd Documents/26415180
+  370  nano sapa.sh
+  371  chmod +x sapa.sh
+  372  ls sapa.sh
+  373  ./sapa.sh
+  374  nano sapa.sh
+  375  ./sapa.sh
+  376  nano sapa.sh
+  377  ./sapa.sh
+  378  nano sapa.sh
+  379  ./sapa.sh
+  380  nano sapa.sh
+  381  ./sapa.sh
+  382  echo $date +"%T"
+  383  echo $(date +"%r")
+  384  echo $(date +"%T")
+  385  echo $(date +%F %T.%N %Z)
+  386  echo $(date +%F %T %N %Z)
+  387  echo $(date +%F %N %Z)
+  388  echo $(date +%F +%T +%N +%Z)
+  389  echo $(date +%F %T %N %Z)
+  390  man date
+  391  echo $(date +"%i")
+  392  echo $(date +"%I")
+  393  echo $(date +"%H")
+  394  nano sapa.sh
+  395  ./sapa.sh
+  396  nano sapa.sh
+  397  ./sapa.sh
+  398  nano sapa.sh
+  399  ./sapa.sh
+  400  nano sapa.sh
+
