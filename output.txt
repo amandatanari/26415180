@@ -1,0 +1,4 @@
+Kategori    Jumlah  Total   Rata
+S 	 2 	 15000 	 7500
+TS 	 2 	 25000 	 12500
+KS 	 3 	 37000 	 12333

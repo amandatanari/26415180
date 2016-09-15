@@ -1,8 +1,8 @@
 nama,harga,kategori
-sate,7000,1
-nasi capjay,10000,2
-tahu tek,10000,3
-bandeng presto,12000,3
-salad,8000,1
-nasi gurih,15000,3
-banana,15000,2
+sate,7000,S
+nasi capjay,10000,TS
+tahu tek,10000,KS
+bandeng presto,12000,KS
+salad,8000,S
+nasi gurih,15000,KS
+banana,15000,TS

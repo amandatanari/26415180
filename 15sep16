@@ -1,0 +1,52 @@
+  417  cd Documents/26415180
+  418  awk makanan.csv
+  419  echo makanan.csv
+  420  awk 'BEGIN {print "mulai"} {printf(%d, %s, %s)}'
+  421  awk {printf(%d, %s, %s)}' makanan.csv
+  422  awk '{printf(%d, %s, %s)}' makanan.csv
+  423  awk '{printf("%d, %s, %s")}' makanan.csv
+  424  awk '{printf("%d, %s, %s")}' makanan_PR4.csv
+  425  awk '{printf("%s, %d, %d")}' makanan_PR4.csv
+  426  cd ..
+  427  git init
+  428  git init Kelompok3
+  429  git status
+  430  git push Kelompok3
+  431  git commit
+  432  awk -F "," '{print $S}' <Data.xlsx\ -\ Sheet1.csv | head
+  433  cd 26415180
+  434  awk -F "," '{print $S}' <Data.xlsx\ -\ Sheet1.csv | head
+  435  awk -F "," '{print $S}' <Data.xlsx | head
+  436  awk 'BEGIN{} {} END{}'
+  437  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}'
+  438  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' Data.xsls
+  439  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xsls
+  440  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlss
+  441  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlsx
+  442  git status
+  443  git add *
+  444  git commit
+  445  git status
+  446  git push
+  447  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlsx
+  448  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlsx\ -\ Sheet1.csv | head
+  449  awk 'BEGIN{FS=","; printf "#!/bin/bash\n"} NR>1 {printf "git clone git://github.com/%sss/%s} END{}' < Data.xlsx\ -\ Sheet1.csv | head >gitclone.sh
+  450  git log
+  451  git log -l
+  452  git log -line
+  453  nano PR4.sh
+  454  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan.csv > output.txt
+  455  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  456  rm output.txt
+  457  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  458  nano makanan_PR4.txt
+  459  nano makanan_PR4.csv
+  460  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  461  awk -F"," '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  462  awk -F"|" 'NR>1{a[$3]++;b[$3]+=$2;}END{for (i in a)printf"%s\t%d\t%d\t%d\n", i,a[i],b[i],b[i]/a[i];}' makanan_PR4.csv
+  463  awk -F"," 'NR>1{a[$3]++;b[$3]+=$2;}END{for (i in a)printf"%s\t%d\t%d\t%d\n", i,a[i],b[i],b[i]/a[i];}' makanan_PR4.csv
+  464  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s, %d, %d", $3, kat, jum}}'
+  465  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s, %d, %d", $3, kat, jum}}' < makanan_PR4.csv
+  466  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s\t%d\t%d\t", $3, kat, jum}}' < makanan_PR4.csv
+  467  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s\t%d\t%d\t", k, kat[k], jum[k]}}' < makanan_PR4.csv
+
