@@ -1,0 +1,84 @@
+  505  cd Document
+  506  cd Documents
+  507  cd 26415180
+  508  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv
+  509  awk -F"," '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv
+  510  nano PR4.txt
+  511  git status
+  512  nano coba.pl
+  513  history
+  514  ./coba.pl
+  515  nano coba.pl
+  516  ./coba.pl
+  517  nano coba.pl
+  518  ./coba.pl
+  519  nano coba.pl
+  520  git status
+  521  git add PR4.txt
+  522  git status
+  523  git commit
+  524  git status
+  525  git push
+  526  git status
+  527  git add coba.pl
+  528  git status
+  529  git commit
+  530  git push
+  531  git status
+  532  nano pel.pl
+  533  ./pel.pl
+  534  ll pel.pl
+  535  chmod +x pel.pl
+  536  ll pel.pl
+  537  ./pel.pl
+  538  nano pel.pl
+  539  ./pel.pl
+  540  nano pel.pl
+  541  ./pel.pl
+  542  pel.pl
+  543  ./coba.pl
+  544  ./pel.pl
+  545  cat coba.pl
+  546  cat pel.pl
+  547  nano pel.pl
+  548  ./pel.pl
+  549  ll pel.pl 
+  550  cat pel.pl
+  551  nano pel.pl
+  552  ll pel.pl 
+  553  ./pel.pl
+  554  nano pel.pl
+  555  perl pel.pl
+  556  nano pel.pl
+  557  perl pel.pl
+  558  mv pel.pl lab05-26415180.pl
+  559  ll
+  560  ls
+  561  git status
+  562  git add lab05-26415180.pl 
+  563  git status
+  564  git commit
+  565  git push
+  566  nano a.bash
+  567  rm a.bash
+  568  a.bash -r
+  569  rm a.bash
+  570  ls
+  571  nano a.sh
+  572  chmod +x a.sh
+  573  ls a.sh
+  574  ./a.sh
+  575  nano a.sh
+  576  ./a.sh
+  577  find * -type pl
+  578  nano a.sh
+  579  ll
+  580  whereis usr/bin
+  581  nano a.sh
+  582  ./a.sh
+  583  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv
+  584  find . -name 11sep16
+  585  find * -type f 11sep16
+  586  man find
+  587  history
+
