@@ -3,11 +3,12 @@ echo "Inputkan nama : "
 read nama
 echo "Halo $nama ! "
 echo "Bagaimana kabar Anda?"
-now="$(date +"%r")"
+now="$(date +"%R")"
 echo "Sekarang jam $now"
 
-pukul= $(date +"%H")
-
+pukul= "$(date +"%H")"
+jamnyasaja=cut -c 1-2 pukul
+echo $jamnyasaja
 if [$pukul>= 6 && $pukul<=10 ]
 then echo "Waktunya untuk makan pagi"
 fi
