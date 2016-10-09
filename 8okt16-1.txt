@@ -1,0 +1,24 @@
+  593  ls /home
+  594  cd /home/amanda/
+  595  ls
+  596  cd Documents/
+  597  ls
+  598  cd 26415180
+  599  sh sapa.sh
+  600  nano sapa.sh 
+  601  sh sapa.sh
+  602  nano sapa.sh 
+  603  sh sapa.sh
+  604  date
+  605  date +%R
+  606  cut -c 1-2 date +%R 
+  607  cut -c 1-2 | date +%R 
+  608  sh sapa.sh
+  609  nano sapa.sh 
+  610  sh sapa.sh
+  611  history >>simpan.txt
+  612  ls
+  613  screen -list
+  614  screen -r 25516
+  615  screen -r 25516.pts-18.amanda
+  616  history >>8okt16-1.txt

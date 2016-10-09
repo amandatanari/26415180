@@ -1,0 +1,611 @@
+    1  whoami
+    2  su
+    3  sudo
+    4  help
+    5  :q
+    6  where
+    7  whereis me
+    8  whereis a
+    9  su
+   10  who
+   11  w
+   12  finger
+   13  history
+   14  su
+   15  clear
+   16  top
+   17  clear
+   18  htop
+   19  pstree
+   20  clear
+   21  free
+   22  sudo
+   23  su
+   24  vmstat
+   25  fg
+   26  jobs
+   27  bg
+   28  clear
+   29  hostname
+   30  ifconfig
+   31  ping
+   32  ping 192.168.10.10
+   33  traceroute
+   34  netstat
+   35  nmap
+   36  iptables
+   37  iptables -h
+   38  telnet
+   39  mount
+   40  clear
+   41  du
+   42  df
+   43  quota
+   44  date
+   45  cal
+   46  bc
+   47  clear
+   48  bc
+   49  mc
+   50  crontab
+   51  git clone
+   52  pwd
+   53  cd documents
+   54  cd Document
+   55  cd Document/
+   56  git init
+   57  clear
+   58  git clone
+   59  git clone https://github.com/amandatanari/test
+   60  clear
+   61  git clone https://github.com/amandatanari
+   62  git clone https://github.com/amandatanari/TOS
+   63  pwd
+   64  cd TOS
+   65  pwd
+   66  ll
+   67  mkdir Tugas 1
+   68  rmdir Tugas
+   69  mkdir Tugas1
+   70  cd Tugas1
+   71  pwd
+   72  vim
+   73  sudo apt install vim
+   74  vim
+   75  vimtutor
+   76  vim
+   77  nano
+   78  ls
+   79  touch coba
+   80  file
+   81  file coba
+   82  stat coba
+   83  touch coba
+   84  stat coba
+   85  touch coba
+   86  stat coba
+   87  lsattr
+   88  lsattr coba
+   89  lsattr public
+   90  lsattr Public
+   91  lsattr /Public
+   92  lsattr
+   93  lsattr /Music
+   94  lsattr Music
+   95  chattr
+   96  chattr coba
+   97  chattr -v coba
+   98  chattr = coba
+   99  lsattr
+  100  chattr +coba
+  101  chattr + coba
+  102  lsattr coba
+  103  lsattr
+  104  chattr coba 
+  105  chattr + coba
+  106  lsattr
+  107  find
+  108  find TOS
+  109  find coba
+  110  pwd
+  111  find coba Music
+  112  find Music
+  113  mv coba Documents
+  114  find coba
+  115  find documents
+  116  coba
+  117  locate coba
+  118  which coba
+  119  which
+  120  which Public
+  121  which Music
+  122  which Music/
+  123  where is
+  124  whereis
+  125  whereis coba
+  126  whereis Public
+  127  pwd
+  128  cd document
+  129  cd documents
+  130  cd Documents
+  131  pwd
+  132  ls
+  133  ll
+  134  ls -la
+  135  ls -a
+  136  head coba
+  137  tail coba
+  138  more
+  139  more coba
+  140  more -d coba
+  141  less coba
+  142  history
+  143  nano
+  144  history
+  145  date
+  146  cal
+  147  bc
+  148  mc
+  149  sudo apt install mc
+  150  mc
+  151  crontab
+  152  crontab --help
+  153  man crontab
+  154  crontab -e
+  155  at
+  156  sudo apt install at
+  157  at
+  158  sed
+  159  sed -h
+  160  sed --help
+  161  sed -e
+  162  sed -n
+  163  awk
+  164  awk --help
+  165  awk '{print $1, $3}'
+  166  history
+  167  awk 'print'
+  168  awk {print}
+  169  history
+  170  nano "History Advanced Commands"
+  171  git add .
+  172  git status
+  173  git commit -m "Ini untuk History Advanced Commands"
+  174  git status
+  175  git push
+  176  git status
+  177  passwd
+  178  su
+  179  clear
+  180  nano makanan
+  181  ll
+  182  clear
+  183  cat
+  184  cat >makanan.csv
+  185  cat > makanan.csv
+  186  cat >> makanan.csv
+  187  awk 'begin {print "mulai"} {print} end {print "selesai"} <makanan.csv
+  188  awk 'begin {print "mulai"} {print} end {print "selesai"}' <makanan.csv
+  189  awk 'BEGIN {print "mulai"} {print} END {print "selesai"}' <makanan.csv
+  190  awk 'BEGIN {print "mulai"} printf{"%d: %s %d \n",NR,$0,NF}'END <makanan.csv
+  191  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}'END <makanan.csv
+  192  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}END' <makanan.csv
+  193  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}' <makanan.csv
+  194  history
+  195  nano makanan.csv
+  196  sed 's/ayam/empal' < makanan.csv
+  197  sed 's/ayam/empal/' < makanan.csv
+  198  sed 's/ayam/empal/' < makanan.csv > makanan.csv
+  199  sed 's/ayam/empal/' > makanan.csv
+  200  nano makanan.csv
+  201  sed 's/ayam/empal/' < makanan.csv
+  202  nano makanan.csv
+  203  sed 's/ayam/empal/' < makanan.csv
+  204  sort makanan.csv
+  205  sort -r makanan.csv
+  206  sort -r -g makanan.csv
+  207  sort -r -n -k 2 makanan.csv
+  208  history
+  209  history >>Meeting 4
+  210  history >>Meeting4
+  211  git status
+  212  git add *
+  213  git push
+  214  git status
+  215  git push -m "9/8/2016"
+  216  git push
+  217  git commit -m "9/8/16"
+  218  git status
+  219  git add *
+  220  git push
+  221  git commit -m "9/8/16"
+  222  git status
+  223  git add *
+  224  git status
+  225  git add .
+  226  git status
+  227  git push
+  228  git commit -m "9/8/16"
+  229  git rm Meeting4
+  230  ls
+  231  git commit
+  232  cd ..
+  233  ll
+  234  git status
+  235  git add *
+  236  git status
+  237  git push
+  238  git status
+  239  git commit
+  240  git commit -m "9/8/16"
+  241  git status
+  242  git push 
+  243  git commit -m "9/8/16"
+  244  vim port.sh
+  245  clear
+  246  wc 11sep16-1
+  247  echo wc itu menampilkan jumlah baris, jumlah kata, jumlah byte
+  248  wc -c 11sep16-1
+  249  echo -c hanya menampilkan jumlah byte
+  250  wc -m 11sep16-1
+  251  wc -l 11sep16-1
+  252  wc -L 11sep16-1
+  253  wc -w 11sep16-1
+  254  wc --version
+  255  echo "\n"
+  256  echo test\ntest
+  257  echo print{"\n"}
+  258  printf{"\n"}
+  259  echo printf{"test\n"}
+  260  echo "wc -c jmlh byte, -m jmlh karakter, -l jumlah baris, -L panjang baris terpanjang, -w jumlah kata"
+  261  wc --files 11sep16-1
+  262  echo wc --files itu menampilkan file, gak ada baris barunya
+  263  history
+  264  nano 11sep16-2
+  265  fg
+  266  bg
+  267  nano 11sep16-2
+  268  wc --file 11sep16-1
+  269  wc -c 11sep16-1
+  270  wc -l 11sep16-1
+  271  wc -w 11sep16-1
+  272  wc -L 11sep16-1
+  273  wc 11sep16-1
+  274  wc -m 11sep16-1
+  275  wc -c 11sep16-1
+  276  ll 11sep16-1
+  277  git status
+  278  rname 9september16 11september16
+  279  rename 11september16
+  280  mv 9september16 11september16
+  281  git status
+  282  git push 11sep16-1
+  283  git push .
+  284  git status
+  285  git add 11sep16-1
+  286  git add 11sep16-2
+  287  git add 11september16
+  288  git status
+  289  git commit
+  290  git status
+  291  git push
+  292  git status
+  293  git clone
+  294  git clone git@github.com:amandatanari/26415180.git
+  295  git status
+  296  cd ..
+  297  git clone git@github.com:amandatanari/26415180.git
+  298  cd 26415180
+  299  git status
+  300  git add Meeting4
+  301  git add Meeting5
+  302  git status
+  303  git commit
+  304  git status
+  305  git push
+  306  git status
+  307  git push
+  308  git add Meeting4
+  309  git status
+  310  ls -a
+  311  ls
+  312  cd Documents
+  313  ls
+  314  mv Data 26415180
+  315  git clone git@github.com:amandatanari/26415180
+  316  cd 26415180
+  317  whereis test.sh
+  318  cd
+  319  ls
+  320  cd cd Documents
+  321  cd Documents
+  322  nano test.sh
+  323  ll test.sh
+  324  test
+  325  test.sh
+  326  history
+  327  ./test.sh
+  328  /test.sh
+  329  test.sh
+  330  run test.sh
+  331  test.sh
+  332  Documents/test.sh
+  333  history
+  334  sudo history
+  335  nano refleksi13sep16
+  336  cd -
+  337  nano refleksi13sep16
+  338  string^ ^string2
+  339  ls -d
+  340  ld -d *?
+  341  ld -d */
+  342  cd Document
+  343  cd Documents
+  344  ls -d *?
+  345  ls -d
+  346  ls -d */
+  347  cd 26415180
+  348  whereis refleksi13sep16
+  349  nano refleksi13sep16
+  350  ls */
+  351  ls -d */
+  352  ls */
+  353  nano refleksi13sep16
+  354  history
+  355  echo test.sh
+  356  nano 13sep16-1
+  357  git status
+  358  git add 13sep16-1
+  359  git add refleksi13sep16
+  360  git add test.sh
+  361  git status
+  362  git commit
+  363  git status
+  364  git push
+  365  cd Documents/26415180
+  366  nano makanan.csv
+  367  nano makanan_PR4.csv
+  368  awk 'BEGIN {print "mulai"} {printf("%d: %s %d \n",NR,$0,NF)}END' < makanan_PR4.csv
+  369  cd Documents/26415180
+  370  nano sapa.sh
+  371  chmod +x sapa.sh
+  372  ls sapa.sh
+  373  ./sapa.sh
+  374  nano sapa.sh
+  375  ./sapa.sh
+  376  nano sapa.sh
+  377  ./sapa.sh
+  378  nano sapa.sh
+  379  ./sapa.sh
+  380  nano sapa.sh
+  381  ./sapa.sh
+  382  echo $date +"%T"
+  383  echo $(date +"%r")
+  384  echo $(date +"%T")
+  385  echo $(date +%F %T.%N %Z)
+  386  echo $(date +%F %T %N %Z)
+  387  echo $(date +%F %N %Z)
+  388  echo $(date +%F +%T +%N +%Z)
+  389  echo $(date +%F %T %N %Z)
+  390  man date
+  391  echo $(date +"%i")
+  392  echo $(date +"%I")
+  393  echo $(date +"%H")
+  394  nano sapa.sh
+  395  ./sapa.sh
+  396  nano sapa.sh
+  397  ./sapa.sh
+  398  nano sapa.sh
+  399  ./sapa.sh
+  400  nano sapa.sh
+  401  history
+  402  nano 14sep16-1
+  403  git status
+  404  git add makanan_PR4.csv
+  405  git add sapa.sh
+  406  git add 14sep16-1
+  407  git status
+  408  git commit
+  409  git status
+  410  git pus
+  411  git push
+  412  git status
+  413  history
+  414  echo git clone
+  415  echo Git Clone
+  416  clear
+  417  cd Documents/26415180
+  418  awk makanan.csv
+  419  echo makanan.csv
+  420  awk 'BEGIN {print "mulai"} {printf(%d, %s, %s)}'
+  421  awk {printf(%d, %s, %s)}' makanan.csv
+  422  awk '{printf(%d, %s, %s)}' makanan.csv
+  423  awk '{printf("%d, %s, %s")}' makanan.csv
+  424  awk '{printf("%d, %s, %s")}' makanan_PR4.csv
+  425  awk '{printf("%s, %d, %d")}' makanan_PR4.csv
+  426  cd ..
+  427  git init
+  428  git init Kelompok3
+  429  git status
+  430  git push Kelompok3
+  431  git commit
+  432  awk -F "," '{print $S}' <Data.xlsx\ -\ Sheet1.csv | head
+  433  cd 26415180
+  434  awk -F "," '{print $S}' <Data.xlsx\ -\ Sheet1.csv | head
+  435  awk -F "," '{print $S}' <Data.xlsx | head
+  436  awk 'BEGIN{} {} END{}'
+  437  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}'
+  438  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' Data.xsls
+  439  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xsls
+  440  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlss
+  441  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlsx
+  442  git status
+  443  git add *
+  444  git commit
+  445  git status
+  446  git push
+  447  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlsx
+  448  awk 'BEGIN{FS=","} {printf "%s %s", $2, $5} END{}' < Data.xlsx\ -\ Sheet1.csv | head
+  449  awk 'BEGIN{FS=","; printf "#!/bin/bash\n"} NR>1 {printf "git clone git://github.com/%sss/%s} END{}' < Data.xlsx\ -\ Sheet1.csv | head >gitclone.sh
+  450  git log
+  451  git log -l
+  452  git log -line
+  453  nano PR4.sh
+  454  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan.csv > output.txt
+  455  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  456  rm output.txt
+  457  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  458  nano makanan_PR4.txt
+  459  nano makanan_PR4.csv
+  460  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  461  awk -F"," '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv > output.txt
+  462  awk -F"|" 'NR>1{a[$3]++;b[$3]+=$2;}END{for (i in a)printf"%s\t%d\t%d\t%d\n", i,a[i],b[i],b[i]/a[i];}' makanan_PR4.csv
+  463  awk -F"," 'NR>1{a[$3]++;b[$3]+=$2;}END{for (i in a)printf"%s\t%d\t%d\t%d\n", i,a[i],b[i],b[i]/a[i];}' makanan_PR4.csv
+  464  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s, %d, %d", $3, kat, jum}}'
+  465  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s, %d, %d", $3, kat, jum}}' < makanan_PR4.csv
+  466  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s\t%d\t%d\t", $3, kat, jum}}' < makanan_PR4.csv
+  467  awk 'BEGIN {FS=","; print "Kategori\tBanyak\tTotal"} NR>1 {kat[$3]++; jum[$3]+=$2} END {for(k in kat) {printf "%s\t%d\t%d\t", k, kat[k], jum[k]}}' < makanan_PR4.csv
+  468  history
+  469  nano 15sep16
+  470  git status
+  471  git add .
+  472  git status
+  473  git commit
+  474  git push
+  475  git status
+  476  git commit
+  477  git add .
+  478  git status
+  479  git commit
+  480  git push
+  481  cat output.txt
+  482  cat output.txt | sort
+  483  cat output.txt | sort -k
+  484  cat output.txt | sort -k3
+  485  cat output.txt | sort -k4
+  486  cat output.txt | NR>1 sort -k4
+  487  cat output.txt | sort -k4
+  488  sort -r -n -k output.txt
+  489  sort -r -n -k 3  output.txt
+  490  sort -r -n -k 4  output.txt
+  491  sort -n -k 4  output.txt
+  492  sort -k4  output.txt
+  493  nano coba.pl
+  494  chmod +x coba.pl
+  495  ls 
+  496  coba.pl
+  497  ls 
+  498  nano coba.pl
+  499  coba.pl
+  500  nano coba.pl
+  501  coba.pl
+  502  ./coba.pl
+  503  nano coba.pl
+  504  cd
+  505  cd Document
+  506  cd Documents
+  507  cd 26415180
+  508  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv
+  509  awk -F"," '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv
+  510  nano PR4.txt
+  511  git status
+  512  nano coba.pl
+  513  history
+  514  ./coba.pl
+  515  nano coba.pl
+  516  ./coba.pl
+  517  nano coba.pl
+  518  ./coba.pl
+  519  nano coba.pl
+  520  git status
+  521  git add PR4.txt
+  522  git status
+  523  git commit
+  524  git status
+  525  git push
+  526  git status
+  527  git add coba.pl
+  528  git status
+  529  git commit
+  530  git push
+  531  git status
+  532  nano pel.pl
+  533  ./pel.pl
+  534  ll pel.pl
+  535  chmod +x pel.pl
+  536  ll pel.pl
+  537  ./pel.pl
+  538  nano pel.pl
+  539  ./pel.pl
+  540  nano pel.pl
+  541  ./pel.pl
+  542  pel.pl
+  543  ./coba.pl
+  544  ./pel.pl
+  545  cat coba.pl
+  546  cat pel.pl
+  547  nano pel.pl
+  548  ./pel.pl
+  549  ll pel.pl 
+  550  cat pel.pl
+  551  nano pel.pl
+  552  ll pel.pl 
+  553  ./pel.pl
+  554  nano pel.pl
+  555  perl pel.pl
+  556  nano pel.pl
+  557  perl pel.pl
+  558  mv pel.pl lab05-26415180.pl
+  559  ll
+  560  ls
+  561  git status
+  562  git add lab05-26415180.pl 
+  563  git status
+  564  git commit
+  565  git push
+  566  nano a.bash
+  567  rm a.bash
+  568  a.bash -r
+  569  rm a.bash
+  570  ls
+  571  nano a.sh
+  572  chmod +x a.sh
+  573  ls a.sh
+  574  ./a.sh
+  575  nano a.sh
+  576  ./a.sh
+  577  find * -type pl
+  578  nano a.sh
+  579  ll
+  580  whereis usr/bin
+  581  nano a.sh
+  582  ./a.sh
+  583  awk -F"|" '{if($3=="S") s++;if($3=="S") total=total + $2;if($3=="TS") ts++;if($3=="TS") ttotal=ttotal + $2;if($3=="KS") ks++;if($3=="KS") ktotal=ktotal + $2} ; END {printf("Kategori    Jumlah  Total   Rata\nS \t %d \t %d \t %d\nTS \t %d \t %d \t %d\nKS \t %d \t %d \t %d\n" , s,total,total/s, ts,ttotal,ttotal/ts, ks,ktotal,ktotal/ks)}' < makanan_PR4.csv
+  584  find . -name 11sep16
+  585  find * -type f 11sep16
+  586  man find
+  587  history
+  588  nano 21sep16
+  589  git status
+  590  git add 21sep16
+  591  git commit
+  592  git push
+  593  ls /home
+  594  cd /home/amanda/
+  595  ls
+  596  cd Documents/
+  597  ls
+  598  cd 26415180
+  599  sh sapa.sh
+  600  nano sapa.sh 
+  601  sh sapa.sh
+  602  nano sapa.sh 
+  603  sh sapa.sh
+  604  date
+  605  date +%R
+  606  cut -c 1-2 date +%R 
+  607  cut -c 1-2 | date +%R 
+  608  sh sapa.sh
+  609  nano sapa.sh 
+  610  sh sapa.sh
+  611  history >>simpan.txt

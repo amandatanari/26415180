@@ -1,0 +1,145 @@
+    1  whoami
+    2  su
+    3  sudo
+    4  help
+    5  :q
+    6  where
+    7  whereis me
+    8  whereis a
+    9  su
+   10  who
+   11  w
+   12  finger
+   13  history
+   14  su
+   15  clear
+   16  top
+   17  clear
+   18  htop
+   19  pstree
+   20  clear
+   21  free
+   22  sudo
+   23  su
+   24  vmstat
+   25  fg
+   26  jobs
+   27  bg
+   28  clear
+   29  hostname
+   30  ifconfig
+   31  ping
+   32  ping 192.168.10.10
+   33  traceroute
+   34  netstat
+   35  nmap
+   36  iptables
+   37  iptables -h
+   38  telnet
+   39  mount
+   40  clear
+   41  du
+   42  df
+   43  quota
+   44  date
+   45  cal
+   46  bc
+   47  clear
+   48  bc
+   49  mc
+   50  crontab
+   51  git clone
+   52  pwd
+   53  cd documents
+   54  cd Document
+   55  cd Document/
+   56  git init
+   57  clear
+   58  git clone
+   59  git clone https://github.com/amandatanari/test
+   60  clear
+   61  git clone https://github.com/amandatanari
+   62  git clone https://github.com/amandatanari/TOS
+   63  pwd
+   64  cd TOS
+   65  pwd
+   66  ll
+   67  mkdir Tugas 1
+   68  rmdir Tugas
+   69  mkdir Tugas1
+   70  cd Tugas1
+   71  pwd
+   72  vim
+   73  sudo apt install vim
+   74  vim
+   75  vimtutor
+   76  vim
+   77  nano
+   78  ls
+   79  touch coba
+   80  file
+   81  file coba
+   82  stat coba
+   83  touch coba
+   84  stat coba
+   85  touch coba
+   86  stat coba
+   87  lsattr
+   88  lsattr coba
+   89  lsattr public
+   90  lsattr Public
+   91  lsattr /Public
+   92  lsattr
+   93  lsattr /Music
+   94  lsattr Music
+   95  chattr
+   96  chattr coba
+   97  chattr -v coba
+   98  chattr = coba
+   99  lsattr
+  100  chattr +coba
+  101  chattr + coba
+  102  lsattr coba
+  103  lsattr
+  104  chattr coba 
+  105  chattr + coba
+  106  lsattr
+  107  find
+  108  find TOS
+  109  find coba
+  110  pwd
+  111  find coba Music
+  112  find Music
+  113  mv coba Documents
+  114  find coba
+  115  find documents
+  116  coba
+  117  locate coba
+  118  which coba
+  119  which
+  120  which Public
+  121  which Music
+  122  which Music/
+  123  where is
+  124  whereis
+  125  whereis coba
+  126  whereis Public
+  127  pwd
+  128  cd document
+  129  cd documents
+  130  cd Documents
+  131  pwd
+  132  ls
+  133  ll
+  134  ls -la
+  135  ls -a
+  136  head coba
+  137  tail coba
+  138  more
+  139  more coba
+  140  more -d coba
+  141  less coba
+  142  history
+  143  nano
+  144  history
+

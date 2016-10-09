@@ -1,0 +1,81 @@
+  584  find . -name 11sep16
+  585  find * -type f 11sep16
+  586  man find
+  587  history
+  588  nano 21sep16
+  589  git status
+  590  git add 21sep16
+  591  git commit
+  592  git push
+  593  nano lab01-26415180.sh
+  594  ls
+  595  chmod +x lab01-26415180.sh 
+  596  ls
+  597  sh lab01-26415180.sh 
+  598  nano lab01-26415180.sh 
+  599  sh lab01-26415180.sh 
+  600  nano lab01-26415180.sh 
+  601  sh lab01-26415180.sh 
+  602  nano lab01-26415180.sh 
+  603  sh lab01-26415180.sh 
+  604  ifconfig
+  605  sh /sbin/ifconfig
+  606  /sbin/ifconfig
+  607  /sbin/ifconfig | grep "inet addr"
+  608  /sbin/ifconfig | grep "inet addr" | sort asc
+  609  /sbin/ifconfig | grep "inet addr" | sort inet
+  610  /sbin/ifconfig | grep "inet addr" | sort
+  611  /sbin/ifconfig | grep "inet addr" | sort 1
+  612  /sbin/ifconfig | grep "inet addr" | sort 0
+  613  /sbin/ifconfig | grep "inet addr" | sort a
+  614  /sbin/ifconfig | grep "inet addr" | desc
+  615  /sbin/ifconfig | grep "inet addr" | sort -a
+  616  /sbin/ifconfig | grep "inet addr" | sort -asc
+  617  /sbin/ifconfig | grep "inet addr" | sort
+  618  /sbin/ifconfig | grep "inet addr" | sort | append
+  619  /sbin/ifconfig | grep "inet addr" | sort
+  620  history >>simpan2.txt
+  621  crontab -e
+  622  crontab -l
+  623  crontab -e
+  624  crontab -l
+  625  bg
+  626  fg
+  627  ls
+  628  /
+  629  cd /
+  630  ls
+  631  cd home
+  632  ls
+  633  ls /home/amanda/
+  634  sh /home/amanda/Documents/26415180/sapa.sh 
+  635  ls
+  636  cd amanda/
+  637  cd Documents/
+  638  cd 26415180/
+  639  ls
+  640  cd /home
+  641  ls
+  642  cd amanda/
+  643  ls
+  644  curl www.facebook.com >> fb.txt | grep -n "<html> fb.txt
+  645  curl www.facebook.com >> fb.txt | grep -n "<html>" fb.txt
+  646  curl www.facebook.com
+  647  curl ericova.com
+  648  curl http://www.ericova.com
+  649  curl http://www.ericova.com > testcurl.txt
+  650  ls
+  651  ls -lh
+  652  nano testcurl.txt 
+  653  grep -n "<html>" testcurl.txt 
+  654  grep "<html>" testcurl.txt 
+  655  grep '<html>' testcurl.txt 
+  656  grep html testcurl.txt 
+  657  grep "html" testcurl.txt 
+  658  clear
+  659  grep "html" testcurl.txt 
+  660  grep -o '<html>.*</body>' testcurl.txt 
+  661  grep -o "<html>.*</body>" testcurl.txt 
+  662  grep -o "html.*body" testcurl.txt 
+  663  grep -o "html.*body testcurl.txt 
+  664  history >>8okt16-2.txt
