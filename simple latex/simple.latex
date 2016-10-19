@@ -1,0 +1,16 @@
+\documentclass{article}
+
+\title{My Second Document}
+\date{today}
+\author{Amanda Tanari}
+
+\begin{document}
+Hello Readers!
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+\section{Chapter 1}
+Lalala~
+\subsection{Subchapter 1}
+lalilali~
+\end{document}
