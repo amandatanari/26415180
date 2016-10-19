@@ -1,0 +1,28 @@
+Nomor 1
+
+Untuk menampilkan harga akhir:
+
+#!/bin/bash
+
+curl -s http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 | grep "Rp" | grep -o '[0-9]*[.][0-9]*[.][0-9]*' | xargs | awk '{printf"Harga Akhir : %s\n", $3}'
+
+Notify email:
+
+mail -s "Harga Akhir" "m26415180@john.petra.ac.id" << $3
+
+Crontab nya:
+
+crontab -e
+0 7-19 * * 1-5 /home/amanda/Documents/no1uts.sh
+
+Nomor 2
+
+sort -r -k1 tableIPv6.csv
+
+Nomor 3
+
+latex tabelIPv6.latex
+dvips tabelIPv6.dvi
+ps2pdf tabelIPv6.ps
+
+Nomor 4
