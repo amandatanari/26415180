@@ -1,0 +1,167 @@
+ 1039  nano 18okt16-1
+ 1040  chmod 18okt16-1 
+ 1041  chmod +x 18okt16-1 
+ 1042  ls
+ 1043  rm 18okt16-1 sendmail.pl
+ 1044  rm 18okt16-1 sendmail
+ 1045  ls
+ 1046  nano sendmail.pl
+ 1047  chmod +x sendmail.pl
+ 1048  pl sendmail.pl
+ 1049  history
+ 1050  ls
+ 1051  pl sendmail.pl 
+ 1052  perl sendmail.pl 
+ 1053  nano sendmail.pl 
+ 1054  git status
+ 1055  git add sendmail.pl
+ 1056  git commit
+ 1057  git push
+ 1058  git status
+ 1059  nano segitiga.sh
+ 1060  chmod +x segitiga.sh 
+ 1061  sh segitiga.sh 
+ 1062  nano segitiga.sh
+ 1063  sh segitiga.sh 
+ 1064  nano segitiga.sh
+ 1065  sh segitiga.sh 
+ 1066  nano segitiga.sh
+ 1067  sh segitiga.sh 
+ 1068  nano segitiga.sh
+ 1069  sh segitiga.sh 
+ 1070  nano segitiga.sh
+ 1071  sh segitiga.sh 
+ 1072  nano segitiga.sh
+ 1073  cp segitiga.sh segitiga2.sh
+ 1074  nano segitiga2.sh 
+ 1075  sh segitiga2.sh 
+ 1076  nano segitiga2.sh 
+ 1077  sh segitiga2.sh 
+ 1078  nano segitiga2.sh 
+ 1079  sh segitiga2.sh 
+ 1080  nano segitiga2.sh 
+ 1081  sh segitiga2.sh 
+ 1082  nano segitiga2.sh 
+ 1083  sh segitiga2.sh 
+ 1084  nano segitiga2.sh 
+ 1085  sh segitiga2.sh 
+ 1086  nano segitiga2.sh 
+ 1087  sh segitiga2.sh 
+ 1088  nano segitiga2.sh 
+ 1089  sh segitiga2.sh 
+ 1090  nano segitiga2.sh 
+ 1091  sh segitiga2.sh 
+ 1092  nano segitiga2.sh 
+ 1093  sh segitiga2.sh 
+ 1094  nano segitiga2.sh 
+ 1095  sh segitiga2.sh 
+ 1096  nano segitiga2.sh 
+ 1097  sh segitiga2.sh 
+ 1098  git status
+ 1099  cp segitiga2.sh segitiga.sh
+ 1100  nano segitiga.sh
+ 1101  rm segitiga2.sh 
+ 1102  nano se
+ 1103  rm se
+ 1104  nano segitiga.sh 
+ 1105  y
+ 1106  git status
+ 1107  git add segitiga.sh
+ 1108  git commit -m "stil wrong"
+ 1109  git push
+ 1110  git status
+ 1111  cd Documents/26415180/
+ 1112  git sttus
+ 1113  git status
+ 1114  git push
+ 1115  ls
+ 1116  git status
+ 1117  git push
+ 1118  git push http://github.com/amandatanari
+ 1119  git push http://github.com/amandatanari/26415180
+ 1120  git push http://github.com/amandatanari/26415180.git
+ 1121  git clone http://github.com/amandatanari/26415180.git
+ 1122  git push
+ 1123  nano loop.sh
+ 1124  chmod +x loop.sh
+ 1125  sh loop.sh 
+ 1126  cp loop.sh outputls.sh
+ 1127  nano outputls.sh 
+ 1128  sh loop.sh 
+ 1129  sh outputls.sh 
+ 1130  chmod +x outputls.sh 
+ 1131  sh outputls.sh 
+ 1132  rm loop.sh
+ 1133  ls
+ 1134  git add outputls.sh
+ 1135  git status
+ 1136  git commit -m "to output ls"
+ 1137  git push
+ 1138  git fetch
+ 1139  git status
+ 1140  git push
+ 1141  git push https://gthub.com/amandatanari/26415180.git
+ 1142  git config
+ 1143  git config --global
+ 1144  nano outputls.sh 
+ 1145  sh outputls.sh 
+ 1146  nano outputls.sh 
+ 1147  sh outputls.sh 
+ 1148  nano outputls.sh 
+ 1149  sh outputls.sh 
+ 1150  ls
+ 1151  nano outputls.sh 
+ 1152  sh outputls.sh 
+ 1153  nano outputls.sh 
+ 1154  sh outputls.sh 
+ 1155  nano outputls.sh 
+ 1156  sh outputls.sh 
+ 1157  nano outputls.sh 
+ 1158  sh outputls.sh 
+ 1159  nano outputls.sh 
+ 1160  sh outputls.sh 
+ 1161  git status
+ 1162  git add outputls.sh 
+ 1163  git status
+ 1164  git push
+ 1165  git commit
+ 1166  git push
+ 1167  git push https://github.com amandatanari
+ 1168  git pull origin
+ 1169  git sttus
+ 1170  git status
+ 1171  git push
+ 1172  nano angka.sh
+ 1173  chmod +x angka.sh 
+ 1174  sh angka.sh 
+ 1175  nano angka.sh
+ 1176  sh angka.sh 
+ 1177  git add
+ 1178  git add angka.sh 
+ 1179  git status
+ 1180  git commit -m "very simple calc"
+ 1181  git status
+ 1182  git push
+ 1183  nano simple.latex
+ 1184  latex simple.latex
+ 1185  dvi simple.dvi
+ 1186  d2p simple.
+ 1187  d2p simple.dvi
+ 1188  dvips simple.dvi
+ 1189  p2pdf simple.pdf
+ 1190  git status
+ 1191  ps2pdf simple.pdf
+ 1192  git status
+ 1193  git add "simple latex/"
+ 1194  gi tstatus
+ 1195  git status
+ 1196  git commit -m "simple latex"
+ 1197  git status
+ 1198  git push
+ 1199  cd simple\ latex/
+ 1200  mv simple.pdf.pdf simple.pdf
+ 1201  git status
+ 1202  git add simple.pdf
+ 1203  git commit -m "simple latex"
+ 1204  git push
+ 1205  history
