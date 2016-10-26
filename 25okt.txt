@@ -1,0 +1,91 @@
+ 1183  nano simple.latex
+ 1184  latex simple.latex
+ 1185  dvi simple.dvi
+ 1186  d2p simple.
+ 1187  d2p simple.dvi
+ 1188  dvips simple.dvi
+ 1189  p2pdf simple.pdf
+ 1190  git status
+ 1191  ps2pdf simple.pdf
+ 1192  git status
+ 1193  git add "simple latex/"
+ 1194  gi tstatus
+ 1195  git status
+ 1196  git commit -m "simple latex"
+ 1197  git status
+ 1198  git push
+ 1199  cd simple\ latex/
+ 1200  mv simple.pdf.pdf simple.pdf
+ 1201  git status
+ 1202  git add simple.pdf
+ 1203  git commit -m "simple latex"
+ 1204  git push
+ 1205  history
+ 1206  nano 19okt16.txt
+ 1207  git status
+ 1208  cd ..
+ 1209  git status
+ 1210  git add 19okt16.txt 
+ 1211  git commit -m "history 19okt16"
+ 1212  git push
+ 1213  $python script.py # Unix/Linuz
+ 1214  nano script.py
+ 1215  mv script.py cobapy.py
+ 1216  nano cobapy.py 
+ 1217  $python cobapy.py 
+ 1218  ls
+ 1219  chmod +x coba.py
+ 1220  chmod +x cobapy.py
+ 1221  ls
+ 1222  $python cobapy.py 
+ 1223  $ python cobapy.py 
+ 1224  nano cobapy.py 
+ 1225  python cobapy.py 
+ 1226  nano cobapy.py 
+ 1227  python cobapy.py 
+ 1228  bg
+ 1229  fg
+ 1230  nano cobapy.py 
+ 1231  python cobapy.py 
+ 1232  history
+
+cobapy.py
+#!/usr/bin/python
+print "Hello, Python!"
+
+if True:
+	print "True"
+else:
+	print "False"
+
+satu=1
+dua = 2
+tiga = 3
+
+total = satu + dua + tiga
+print total
+
+days = ['One', 'Two', 'Three', 'Four']
+print days
+
+word = 'kata'
+print word
+
+sentence = "sentence: This is how we do it."
+print sentence
+paragraph = """Paragraph: How to make a paragraph is
+that you should use quotation mark three times."""
+print paragraph
+name = "name: TOS" #lalala ini comment
+print name
+raw_input("first line \nsecondline \nPress the enter key to exit.")
+
+import sys;
+x = 'foo'; sys.stdout.write(x+'\n')
+expression = true #salah disini
+if expression :
+	suite
+elif expression :
+	suite
+else :
+	suite
