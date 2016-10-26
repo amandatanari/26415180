@@ -48,6 +48,64 @@
  1230  nano cobapy.py 
  1231  python cobapy.py 
  1232  history
+ 1233  nano 25okt.txt
+ 1234  cobapy.py >> 25okt.txt 
+ 1235  cd Documents/26415180/
+ 1236  ls
+ 1237  cd ..
+ 1238  ls
+ 1239  cd
+ 1240  ls
+ 1241  mv 25okt.txt Documents/26415180/
+ 1242  ls
+ 1243  cd Documents/26415180/
+ 1244  ls
+ 1245  nano 25okt.txt 
+ 1246  cd
+ 1247  ls
+ 1248  mv cobapy.py Documents/26415180/
+ 1249  cd Documents/26415180/
+ 1250  nano 25okt.txt 
+ 1251  nano cobapy.py 
+ 1252  python cobapy.py 
+ 1253  nano cobapy.py 
+ 1254  python cobapy.py 
+ 1255  nano cobapy.py 
+ 1256  python cobapy.py 
+ 1257  nano cobapy.py 
+ 1258  python cobapy.py 
+ 1259  nano cobapy.py 
+ 1260  python cobapy.py 
+ 1261  nano cobapy.py 
+ 1262  python cobapy.py 
+ 1263  nano cobapy.py 
+ 1264  python cobapy.py 
+ 1265  nano cobapy.py 
+ 1266  python cobapy.py 
+ 1267  nano cobapy.py 
+ 1268  python cobapy.py 
+ 1269  nano cobapy.py 
+ 1270  python cobapy.py 
+ 1271  nano cobapy.py 
+ 1272  python cobapy.py 
+ 1273  nano cobapy.py 
+ 1274  chmod -x cobapy.py 
+ 1275  ls
+ 1276  nano cobapy.py 
+ 1277  cobapy.py >> 25okt.txt
+ 1278  nano cobapy.py 
+ 1279  chmod +x cobapy.py 
+ 1280  ls
+ 1281  git status
+ 1282  git add 25okt.txt 
+ 1283  git add cobapy.py 
+ 1284  git status
+ 1285  git rm "simple latex/simple.pdf.pdf"
+ 1286  git status
+ 1287  git commit -m "first weekly push"
+ 1288  git status
+ 1289  git push
+ 1290  history
 
 cobapy.py
 #!/usr/bin/python
