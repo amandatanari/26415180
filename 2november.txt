@@ -5,11 +5,11 @@ angka = random.randrange(1,101,1)
 win = false
 print 'cheat: '+str(angka)
 for i in range(5):
-be = raw_input('Masukkan tebakan ke-'+str(i+1)+':')
+input = raw_input('Masukkan tebakan ke-'+str(i+1)+':')
 
-if int (be) < angka:
+if int (input) < angka:
 print 'too small.'
-elif int (be) > angka:
+elif int (input) > angka:
 print 'TOO BIG!'
 else
 win = True
@@ -20,3 +20,26 @@ break
 if (i==1) and (not win):
 print 'u lose'
 
+------------------------
+ 1301  cd Documents/26415180/
+ 1302  touch randomangka.py 
+ 1303  nano randomangka.py 
+ 1304  python randomangka.py 
+ 1305  cd Documents/26415180/
+ 1306  nano randomangka.py 
+ 1307  python randomangka.py 
+ 1308  nano randomangka.py 
+ 1309  python randomangka.py 
+ 1310  nano randomangka.py 
+ 1311  python randomangka.py 
+ 1312  nano randomangka.py 
+ 1313  python randomangka.py 
+ 1314  nano randomangka.py 
+ 1315  python randomangka.py 
+ 1316  nano randomangka.py 
+ 1317  python randomangka.py 
+ 1318  nano randomangka.py 
+ 1319  python randomangka.py 
+ 1320  nano randomangka.py 
+ 1321  nano 2november.txt 
+ 1322  history
