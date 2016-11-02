@@ -52,10 +52,16 @@ print 'u lose'
  1329  git status
  1330  git push
  1331  sed -n '$p' randomangka.py 
+print yang baris terakhir
  1332  sed -n '1p' randomangka.py 
+print baris pertama
  1333  sed -n '2,5p' randomangka.py 
+print baris kedua sampai kelima
  1334  sed -n '2!p' randomangka.py 
+print selain baris dua
  1335  sed -n '1,2!p' randomangka.py 
+print selain baris 1-2
  1336  sed -n '/TOO/p' randomangka.py 
+menampilkan baris yang ada 'TOO'
  1337  history
 
