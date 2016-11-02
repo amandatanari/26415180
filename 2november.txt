@@ -43,3 +43,19 @@ print 'u lose'
  1320  nano randomangka.py 
  1321  nano 2november.txt 
  1322  history
+ 1323  nano 2november.txt 
+ 1324  git status
+ 1325  git add randomangka.py 
+ 1326  git commit -m "yeah"
+ 1327  git add 2november.txt 
+ 1328  git commit -m "hm"
+ 1329  git status
+ 1330  git push
+ 1331  sed -n '$p' randomangka.py 
+ 1332  sed -n '1p' randomangka.py 
+ 1333  sed -n '2,5p' randomangka.py 
+ 1334  sed -n '2!p' randomangka.py 
+ 1335  sed -n '1,2!p' randomangka.py 
+ 1336  sed -n '/TOO/p' randomangka.py 
+ 1337  history
+
