@@ -1,4 +1,4 @@
-1378  cd Documents/
+ 1378  cd Documents/
  1379  cd 26415180/
  1380  mkdir UTS-26415180
  1381  touch UTS-26415180.txt
@@ -225,4 +225,83 @@
  1602  ls
  1603  cd UTS-26415180/
  1604  ls
+
+ 1605  cd Documents/PrakSO/
+ 1606  ls
+ 1607  source.txt > Folder_2/sumber.txt 
+ 1608  source > Folder_2/sumber
+ 1609  source.txt > Folder_2/sumber.txt 
+ 1610  ls
+ 1611  cd Folder_2/
+ 1612  ls
+ 1613  cat sumber
+ 1614  cat sumber.txt
+ 1615  rm sumber
+ 1616  cd .
+ 1617  cd ..
+ 1618  ls
+ 1619  cat source.txt > Folder_2/sumber.txt 
+ 1620  cat Folder_2/sumber.txt 
+ 1621  chmod 731 Folder_2/folder3/file2an.hmm/Folderakhir/gapenting.swt
+ 1622  ls -al Folder_2/folder3/file2an.hmm/Folderakhir/gapenting.swt
+ 1623  expr \( 10 \- 8 \) \* \4 \+ \( \9 \/ \3 \) > hasil.txt
+ 1624  cat hasil.txt 
+ 1625  rm -rf Folder_2/folder3/file2an.hmm/Folderakhir/ && echo "berhasil" | echo "gagal" > salah.txt
+ 1626  cat salah.txt 
+ 1627  rmdir -r Folder_2/folder3/file2an.hmm/Folderakhir/ && echo "berhasil" | echo "gagal" > salah.txt
+ 1628  rmdir Folder_2/folder3/file2an.hmm/Folderakhir/ && echo "berhasil" | echo "gagal" > salah.txt
+ 1629  cat salah.txt 
+ 1630  mv Folder_2/folder3/file2an.hmm/ Folder_2/folder3/file3an.hmm
+ 1631  ls Folder_2/folder3/
+ 1632  mv Folder01/fileku1.ttx Folder_2/folder3/file3an.hmm/Fo
+ 1633  touch Folder01/soal.txt
+ 1634  nano Folder01/soal.txt
+ 1635  cat Folder01/soal.txt
+ 1636  sort Folder01/soal.txt >> sort_soal.txt | echo "Pengurutan Sukses"
+ 1637  cat sort_soal.txt 
+ 1638  cat sort_soal.txt | uniq 
+ 1639  sort -u sort_soal.txt 
+ 1640  cat sort_soal.txt | uniq > filter.txt
+ 1641  cat filter.txt 
+ 1642  ln filter.txt Folder_2/link_filter.txt
+ 1643  ls
+ 1644  cat Folder_2/link_filter.txt
+ 1645  grep [^s.*d$] Folder01/soal.txt 
+ 1646  grep [^sd$] Folder01/soal.txt 
+ 1647  grep "^s.*d$" Folder01/soal.txt 
+ 1648  grep -v "hammer" Folder01/soal.txt 
+ 1649  grep -v "hammer" Folder01/soal.txt > nohammer.txt
+ 1650  cat nohammer.txt 
+ 1651  ls
+ 1652  grep [Iin] source.txt 
+ 1653  grep "In" source.txt 
+ 1654  grep ["In"] source.txt
+ 1655  grep [(In)] source.txt
+ 1656  grep [In] source.txt
+ 1657  grep -i "in" source.txt 
+ 1658  grep "I" "you" source.txt 
+ 1659  grep "I"&& "you" source.txt 
+ 1660  grep "I && you" source.txt 
+ 1661  grep "I" source.txt | grep "you"
+ 1662  grep "I" source.txt 
+ 1663  grep "I" source.txt | grep "you"
+ 1664  grep -i -e "A" -e "P" source.txt 
+ 1665  grep -i ^[A/a].* Folder_2/sumber.txt; grep -i ^[P/p].* Folder_2/sumber.txt
+ 1666  grep "the" source.txt 
+ 1667  grep "the".* source.txt 
+ 1668  grep -i -e "^A.*" -e "^P.*" source.txt 
+ 1669  grep -i -e "^A" -e "^P" source.txt 
+ 1670  grep source.txt 
+ 1671  cat source.txt 
+ 1672  grep "I" source.txt; grep "you"
+ 1673  grep [^Aa] [^Pp] source.txt 
+ 1674  grep [^A^a^P^p] source.txt 
+ 1675  grep [^A][^a][^P][^p] source.txt 
+ 1676  grep -c "that" source.txt 
+ 1677  grep -i -e "\bA" "\bP" source.txt 
+ 1678  grep -i -e "<\A" "<\P" source.txt 
+ 1679  grep -i -e "\<A" "\<P" source.txt 
+ 1680  cd Documents/26415180/
+ 1681  git status
+ 1682  history
 
