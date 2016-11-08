@@ -305,3 +305,70 @@
  1681  git status
  1682  history
 
+Write to a file
+#!/py
+
+import sys
+
+print 'What do you want to say?'
+kal = sys.stdin.readline()
+
+with open('file8nov.txt', 'w') as open_file:
+	open_file.write(kal)
+
+ 1683  ls
+ 1684  nano 8nov.txt
+ 1685  git status
+ 1686  git add .
+ 1687  git commit -m "."
+ 1688  git push
+ 1689  git status
+ 1690  history
+ 1691  nano 8nov.txt
+ 1692  git status
+ 1693  git add .
+ 1694  git commit -m "."
+ 1695  git push
+ 1696  git status
+ 1697  cd PrakSO/
+ 1698  git status
+ 1699  git add .
+ 1700  git commit -m "."
+ 1701  git push
+ 1702  cd ..
+ 1703  cd 26415180/
+ 1704  git status
+ 1705  git add .
+ 1706  git commit -m "."
+ 1707  git push
+ 1708  git status
+ 1709  git push
+ 1710  git pull
+ 1711  git status
+ 1712  git push
+ 1713  touch py8nov.py
+ 1714  touch file8nov.txt
+ 1715  nano py8nov.py 
+ 1716  chmod +x py8nov.py 
+ 1717  python py8nov.py 
+ 1718  nano py8nov.py 
+ 1719  python py8nov.py 
+ 1720  nano py8nov.py 
+ 1721  python py8nov.py 
+ 1722  nano py8nov.py 
+ 1723  python py8nov.py 
+ 1724  nano py8nov.py 
+ 1725  python py8nov.py 
+ 1726  nano py8nov.py 
+ 1727  python py8nov.py 
+ 1728  nano py8nov.py 
+ 1729  python py8nov.py 
+ 1730  nano py8nov.py 
+ 1731  python py8nov.py 
+ 1732  cat file8nov.txt 
+ 1733  git status
+ 1734  git add .
+ 1735  git commit -m "write to a file"
+ 1736  git push
+ 1737  history
+
