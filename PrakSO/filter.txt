@@ -1,6 +1,0 @@
-arrow
-bow
-hammer
-knife
-shield
-sword
