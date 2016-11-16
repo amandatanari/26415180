@@ -13,7 +13,7 @@ g=0
 while [ $n -gt 0 ]; do
 if (( $n >= 100000 ))
 then
- let a=a+1
+ let a=n+100000
  let n=n-100000
 fi
 if (( $n >=50000 ))

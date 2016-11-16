@@ -1,5 +1,7 @@
 #!/bin/bash
 
+Trying if
+
 read a
 
 if (($a ==1))
@@ -11,6 +13,7 @@ then
 else echo "lebih kecil"
 fi
 
+Pecahan
 #!/bin/bash
 
 read n
@@ -72,3 +75,47 @@ echo "$d lembar 10 ribu"
 echo "$e lembar 5 ribu"
 echo "$f lembar 2 ribu"
 echo "$g lembar 1 ribu"
+
+ 1738  git status
+ 1739  git add .
+ 1740  git commit -m "kali ketiga"
+ 1741  git push
+ 1742  cd Documents/26415180/
+ 1743  git status
+ 1744  pwd
+ 1745  password
+ 1746  passwd
+ 1747  nano cantik.sh
+ 1748  chmod +x cantik.sh 
+ 1749  ./cantik.sh 
+ 1750  git status
+ 1751  git add cantik.sh 
+ 1752  git commit -m "cantikz"
+ 1753  git push
+ 1754  nano 16nov.txt
+ 1755  touch 16nov.tct
+ 1756  cp 16nov.tct 16nov.txt
+ 1757  ls
+ 1758  git status
+ 1759  git commit -m "uye"
+ 1760  git add .
+ 1761  git commit -m "uye"
+ 1762  git push
+ 1763  nano pecahan.sh
+ 1764  chmod +x pecahan.sh 
+ 1765  ./pecahan.sh 
+ 1766  git status
+ 1767  git add .
+ 1768  git commit -m "uye"
+ 1769  git push
+ 1770  chmod -x pecahan.sh 
+ 1771  pecahan.sh >> 16nov.txt
+ 1772  chmod +x pecahan.sh 
+ 1773  ./pecahan.sh 
+ 1774  git status
+ 1775  git add .
+ 1776  git commit -m "uye"
+ 1777  git push
+ 1778  nano pecahan.sh 
+ 1779  history
+
