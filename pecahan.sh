@@ -13,35 +13,35 @@ g=0
 while [ $n -gt 0 ]; do
 if (( $n >= 100000 ))
 then
- let a=n+100000
+ let a=a+1
  let n=n-100000
 fi
-if (( $n >=50000 ))
+if (( $n >=50000 && $n < 100000 ))
 then
  let b=b+1
  let n=n-50000
 fi
-if (( $n >=20000 ))
+if (( $n >=20000 && $n < 50000 ))
 then 
  let c=c+1
  let n=n-20000
 fi
-if (( $n >=10000 ))
+if (( $n >=10000 && $n <20000 ))
 then 
  let d=d+1
  let n=n-10000
 fi
-if (( $n >=5000 ))
+if (( $n >=5000 && $n <10000 ))
 then 
  let e=e+1
  let n=n-5000
 fi
-if (( $n >=2000 ))
+if (( $n >=2000 && $n < 5000 ))
 then 
  let f=f+1
  let n=n-2000
 fi
-if (( $n >=1000 ))
+if (( $n >=1000 && $n <2000 ))
 then 
  let g=g+1
  let n=n-1000

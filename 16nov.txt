@@ -32,36 +32,32 @@ then
  let a=a+1
  let n=n-100000
 fi
-if (( $n >=50000 ))
+if (( $n >=50000 && $n <100000 ))
 then
  let b=b+1
  let n=n-50000
 fi
-then
- let b=b+1
- let n=n-50000
-fi
-if (( $n >=20000 ))
+if (( $n >=20000 && $n <50000 ))
 then
  let c=c+1
  let n=n-20000
 fi
-if (( $n >=10000 ))
+if (( $n >=10000 && $n <20000 ))
 then
  let d=d+1
  let n=n-10000
 fi
-if (( $n >=5000 ))
+if (( $n >=5000 && && $n <10000 ))
 then
  let e=e+1
  let n=n-5000
 fi
-if (( $n >=2000 ))
+if (( $n >=2000 && $n <5000 ))
 then
  let f=f+1
  let n=n-2000
 fi
-if (( $n >=1000 ))
+if (( $n >=1000 && $n <2000 ))
 then
  let g=g+1
  let n=n-1000
@@ -118,4 +114,20 @@ echo "$g lembar 1 ribu"
  1777  git push
  1778  nano pecahan.sh 
  1779  history
+ 1780  nano 16nov.txt 
+ 1781  git add .
+ 1782  git commit -m "uye"
+ 1783  git pus
+ 1784  git push 
+ 1785  cat pecahan.sh 
+ 1786  nano pecahan.sh
+ 1787  ./pecahan.sh 
+ 1788  nano pecahan.sh
+ 1789  ./pecahan.sh 
+ 1790  nano pecahan.sh
+ 1791  ./pecahan.sh 
+ 1792  nano pecahan.sh
+ 1793  ./pecahan.sh 
+ 1794  cat pecahan.sh 
+ 1795  history
 
