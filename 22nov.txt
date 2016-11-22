@@ -234,3 +234,34 @@ print "Database version : %s" % data
 
 #disconnect from server
 db.close()
+#!/bin/bash
+
+counter=20
+until (( $counter < 11 ));
+do
+ echo $counter
+ let counter=1
+done
+
+while [ $counter -gt 0 ];
+do
+ echo $counter
+ let counter-=1
+done
+
+counter=2
+
+for i in $(seq 1 $counter)
+do
+ echo $i
+done
+
+ 1891  git status
+ 1892  nano looping.sh
+ 1893  chmod +x looping.sh 
+ 1894  ./looping.sh 
+ 1895  git status
+ 1896  cat looping.sh >> 22nov.txt 
+ 1897  nano 22nov.txt 
+ 1898  history
+
