@@ -182,3 +182,55 @@ done
   echo ""
  fi
 done
+
+ 1850  git push
+ 1851  apt-get install mysql-client mysql-server
+ 1852  su apt-get install mysql-client mysql-server
+ 1853  sudo apt-get install mysql-client mysql-server
+ 1854  mysql
+ 1855  mysql -u
+ 1856  mysql
+ 1857  sudo 
+ 1858  sudo mysql
+ 1859  gunzip MySQL-python-1.2.2.tar.gz
+ 1860  sudo apt-get install python-mysqldb
+ 1861  gunzip MySQL-python-1.2.2.tar.gz
+ 1862  nano cobasql.py
+ 1863  chmod +x cobasql.py 
+ 1864  ./cobasql.py 
+ 1865  nano cobasql.py
+ 1866  ./cobasql.py 
+ 1867  apt-get install sqlite3
+ 1868  sudo apt-get install sqlite3
+ 1869  ./cobasql.py 
+ 1870  nano cobasql.py 
+ 1871  ./cobasql.py 
+ 1872  nano cobasql.py 
+ 1873  sqlite3 ex1
+ 1874  sudo myswl
+ 1875  sudo mysql
+ 1876  sqlite3 ex1
+ 1877  sudo mysql
+ 1878  nano cobasql.py 
+ 1879  ./cobasql.py 
+ 1880  history
+#!/usr/bin/python
+
+import MySQLdb
+
+#Open database connection
+db = MySQLdb.connect("localhost","root","amandatanari","tos")
+
+#prepare a cursor object using cursor() method
+cursor = db.cursor()
+
+#execute SQL wuery usin execute() method
+cursor.execute("SELECT VERSION()")
+
+#fetch a single row using fetchone() method
+data = cursor.fetchone()
+
+print "Database version : %s" % data
+
+#disconnect from server
+db.close()
