@@ -1,0 +1,28 @@
+Segitiga Sama Kaki, ukuran sesuai inputan
+
+read a
+
+for i in $(seq 1 $a)
+do
+for j in $(seq 1 $i)
+do
+printf $j
+done
+echo ""
+done
+
+ 1801  cd Documents/26415180/
+ 1802  ls
+ 1803  nano samakaki.sh
+ 1804  chmod +x samakaki.sh 
+ 1805  ./samakaki.sh 
+ 1806  chmod +x samakaki.sh 
+ 1807  nano samakaki.sh
+ 1808  ./samakaki.sh 
+ 1809  nano samakaki.sh
+ 1810  ./samakaki.sh 
+ 1811  cat samakaki.sh >> 22nov.txt
+ 1812  cat 22nov.txt 
+ 1813  nano 22nov.txt 
+ 1814  history
+
