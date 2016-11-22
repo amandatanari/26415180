@@ -69,4 +69,116 @@ done
  1825  cat persegi.sh >> 22nov.txt 
  1826  nano 22nov.txt 
  1827  history
+ 1827  history
+ 1828  nano 22nov.txt 
+ 1829  nano nazi.sh
+ 1830  chmod +x nazi.sh 
+ 1831  ./nazi.sh 
+ 1832  mv nazi.sh lambang.sh
+ 1833  ./lambang.sh 
+ 1834  cat lambang.sh >> 22nov.txt 
+ 1835  history
+ 1836  nano 22nov.txt 
+ 1837  git add 22nov.txt 
+ 1838  nano 22nov.txt 
+ 1839  cat 22nov.txt 
+ 1840  git add 22nov.txt 
+ 1841  git commit -m "for"
+ 1842  git push
+ 1843  git status
+ 1844  nano 22nov.txt 
+ 1845  history
 
+Logo sesuatu wkwk, ukuran sesuai input an juga
+
+#!/bin/bash
+
+read a
+
+for i in $(seq 1 $a)
+do
+ if (( $i==1 || $i==2 ))
+ then
+  let b=$a+2
+  for j in $(seq 1 $b)
+  do
+   printf '*'
+  done
+  let b=$a-2
+  for j in $(seq 1 $b)
+  do
+   printf ' '
+  done
+  for j in $(seq 1 2)
+  do
+   printf '*'
+  done
+  echo ""
+ else
+  for j in $(seq 1 $a)
+  do
+   printf ' '
+  done
+  for j in $(seq 1 2)
+  do
+   printf '*'
+  done
+  let b=$a-2
+  for j in $(seq 1 $b)
+  do
+   printf ' '
+  done
+  for j in $(seq 1 2)
+  do
+   printf '*'
+  done
+  echo ""
+ fi
+done
+
+for z in $(seq 1 2)
+do
+let b=($a*2)+2
+for i in $(seq 1 $b)
+do
+ printf '*'
+done
+echo ""
+done
+
+for i in $(seq 1 $a)
+do
+ if (( $i==$a-1 || $i==$a ))
+ then
+  for j in $(seq 1 2)
+  do
+   printf '*'
+  done
+  let b=$a-2
+  for j in $(seq 1 $b)
+  do
+   printf ' '
+  done
+  let b=$a+2
+  for j in $(seq 1 $b)
+  do
+   printf '*'
+done
+  echo ""
+ else
+  for j in $(seq 1 2)
+  do
+   printf '*'
+  done
+  let b=$a-2
+  for j in $(seq 1 $b)
+  do
+   printf ' '
+  done
+  for j in $(seq 1 2)
+  do
+   printf '*'
+  done
+  echo ""
+ fi
+done
