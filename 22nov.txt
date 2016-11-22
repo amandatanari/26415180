@@ -26,3 +26,47 @@ done
  1813  nano 22nov.txt 
  1814  history
 
+Persegi dengan ukuran sesuai input
+
+#!/bin/bash
+
+read a
+
+for j in $(seq 1 $a)
+do
+ if (( $j==1 || $j==$a ))
+ then
+   for i in $(seq 1 $a)
+   do
+    printf '*'
+   done
+ echo ""
+
+ else
+  for z in $(seq 1 $a)
+  do
+  if (( $z==1 || $z==$a ))
+   then
+    printf '*'
+  else
+   printf " "
+  fi
+  done
+ echo ""
+ fi
+done
+
+ 1815  nano 22nov.txt 
+ 1816  git status
+ 1817  git add .
+ 1818  git commit -m "for"
+ 1819  git status
+ 1820  git push
+ 1821  git status
+ 1822  nano persegi.sh
+ 1823  chmod +x persegi.sh 
+ 1824  ./persegi.sh 
+ 1825  cat persegi.sh >> 22nov.txt 
+ 1826  nano 22nov.txt 
+ 1827  history
+
