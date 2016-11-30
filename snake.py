@@ -19,7 +19,7 @@ key = KEY_RIGHT  # Initializing values
 score = 0
 
 snake = [[4,10], [4,9], [4,8]]   # Initial snake co-ordinates
-food = [10,20]                  # First food co-ordinates
+food = [randint(1,18), randint(1,58)]                  # First food co-ordinates
 
 win.addch(food[0], food[1], '*')  # Prints the food
 
@@ -49,16 +49,16 @@ while key != 27:                   # While Esc key is not pressed
     snake.insert(0, [snake[0][0] + (key == KEY_DOWN and 1) + (key == KEY_UP and -1), snake[0][1] + (key == KEY_LEFT and -1) + (key == KEY_RIGHT and 1)])
 
     # If snake crosses the boundaries, make it enter from the other side
-    if snake[0][0] == 0: snake[0][0] = 18
-    if snake[0][1] == 0: snake[0][1] = 58
-    if snake[0][0] == 19: snake[0][0] = 1
-    if snake[0][1] == 59: snake[0][1] = 1
+    #if snake[0][0] == 0: snake[0][0] = 18
+    #if snake[0][1] == 0: snake[0][1] = 58
+    #if snake[0][0] == 19: snake[0][0] = 1
+    #if snake[0][1] == 59: snake[0][1] = 1
 
     # Exit if snake crosses the boundaries (Uncomment to enable)
-    #if snake[0][0] == 0 or snake[0][0] == 19 or snake[0][1] == 0 or snake[0][1] == 59: break
+    if snake[0][0] == 0 or snake[0][0] == 19 or snake[0][1] == 0 or snake[0][1] == 59: break
 
     # If snake runs over itself
-    if snake[0] in snake[1:]: break
+    #if snake[0] in snake[1:]: break
 
     
     if snake[0] == food:   # When snake eats the food
@@ -67,11 +67,11 @@ while key != 27:                   # While Esc key is not pressed
         while food == []:
             food = [randint(1, 18), randint(1, 58)] # Calculating next food's coordinates
             if food in snake: food = []
-        win.addch(food[0], food[1], '*')
-    else:    
+        win.addch(food[0], food[1], 'o')
+    else:
         last = snake.pop()                                          # [1] If it does not eat the food, length decreases
         win.addch(last[0], last[1], ' ')
-    win.addch(snake[0][0], snake[0][1], '#')
+    win.addch(snake[0][0], snake[0][1], 'o')
     
 curses.endwin()
 print("\nScore - " + str(score))
