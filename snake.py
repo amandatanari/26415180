@@ -18,10 +18,10 @@ win.nodelay(1)
 key = KEY_RIGHT  # Initializing values
 score = 0
 
-snake = [[4,10], [4,9], [4,8]]   # Initial snake co-ordinates
-food = [randint(1,18), randint(1,58)]                  # First food co-ordinates
+snake = [[15,15], [15,16]]   # Initial snake co-ordinates
+food = [randint(1,18), randint(1,58)]   # First food co-ordinates random
 
-win.addch(food[0], food[1], '*')  # Prints the food
+win.addch(food[0], food[1], '1')  # Prints the food
 
 while key != 27:                   # While Esc key is not pressed
     win.border(0)
@@ -69,9 +69,9 @@ while key != 27:                   # While Esc key is not pressed
             if food in snake: food = []
         win.addch(food[0], food[1], 'o')
     else:
-        last = snake.pop()                                          # [1] If it does not eat the food, length decreases
-        win.addch(last[0], last[1], ' ')
-    win.addch(snake[0][0], snake[0][1], 'o')
+        last = snake.pop() # [1] If it does not eat the food, length decreases
+        win.addch(last[0][0], last[0][1], '-')
+    win.addch(snake[0][0], snake[0][1], 'x')
     
 curses.endwin()
-print("\nScore - " + str(score))
+print("\nScore : " + str(score))
