@@ -38,3 +38,65 @@ do
  let d=d-1
  let e=e+2
 done
+
+-----------
+
+ echo "Menu"
+ echo "1. Sign in"
+ echo "2. Exit"
+ echo "3. Sign up"
+ echo -n "Input : "
+ read a
+
+if (( $a==3 ))
+then
+ echo -n "Input username : "
+ read iun
+ echo -n "Input password : "
+ read ipw
+ echo -n $iun $ipw " ">> signin.txt
+fi
+
+while (( $a!=2 ))
+do 
+ echo -n "username : "
+ read un
+ echo -n "password : "
+ read pw
+ echo $un $pw " ">> signin.txt
+ 
+ let b=0
+ while (( $b!=4 ))
+ do
+ echo "Menu selanjutnya"
+ echo "1. Create file"
+ echo "2. Rename file"
+ echo "3. Delete file"
+ echo "4. Logout"
+ echo -n "Input : "
+ read b
+ if (( $b==1 ))
+ then
+  echo -n "input nama file : "
+  read nama
+  touch $nama
+  echo $un " create file" $nama >> log.txt
+ fi
+ if (( $b==2 ))
+ then
+  echo -n "input nama file awal : "
+  read awal
+  echo -n "input nama file baru : "
+  read baru
+  mv $awal $baru
+  echo $un " rename file " $awal $baru >> log.txt
+ fi
+ if (( $b==3 ))
+ then
+  echo -n "input nama file yang mau di delete : "
+  read hapus
+  rm $hapus
+  echo $un " delete file" $hapus >> log.txt
+ fi
+ done
+done
