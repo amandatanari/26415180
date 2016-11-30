@@ -185,3 +185,54 @@ while key != 27:                   # While Esc key is not pressed
     
 curses.endwin()
 print("\nScore : " + str(score))
+
+-------------------------
+
+ 1905  emacs
+ 1906  xxxxxxxxxxxxxxxxxxxxxxx
+ 1907  cd Documents/26415180/
+ 1908  ls
+ 1909  nano snake.py
+ 1910  python snake.py 
+ 1911  nano snake.py
+ 1912  git status
+ 1913  git pull
+ 1914  nano 30nov16.txt 
+ 1915  cat snake.py >> 30nov16.txt 
+ 1916  git status
+ 1917  git add .
+ 1918  git commit -m "ori"
+ 1919  git push
+ 1920  py snake.py 
+ 1921  python snake.py 
+ 1922  nano snake.py 
+ 1923  python snake.py 
+ 1924  git status
+ 1925  git add .
+ 1926  git commit -m "1st try"
+ 1927  git push
+ 1928  nano snake.py 
+ 1929  python snake.py 
+ 1930  nano snake.py 
+ 1931  python snake.py 
+ 1932  OA
+ 1933  cd Documents/26415180/
+ 1934  nano snake.py 
+ 1935  python snake.py 
+ 1936  cd Documents/26415180/
+ 1937  nano snake.py 
+ 1938  python snake.py 
+ 1939  cd Documents/26415180/
+ 1940  nano snake.py 
+ 1941  python snake.py 
+ 1942  cd Documents/26415180/
+ 1943  nano snake.py 
+ 1944  cat snake.py >> 30nov16.txt 
+ 1945  nano 30nov16.txt 
+ 1946  git status
+ 1947  git add .
+ 1948  git commit -m "2nd try"
+ 1949  git push
+ 1950  history
+
+----------------------
