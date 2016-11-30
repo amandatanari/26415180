@@ -1,0 +1,40 @@
+echo -n "Input = "
+read a
+
+let b=$a+2
+let z=a-1
+let p=0
+for i in $(seq 0 $z)
+do
+ for j in $(seq 1 $p)
+ do
+  echo -n " "
+ done
+ echo -n "*"
+ for j in $(seq 1 $b)
+ do
+  echo -n " "
+ done
+ let p=p+1
+ let b=b-2
+ echo "*"
+done
+
+let x=a-1
+let d=x-1
+let e=-1
+for i in $(seq 0 $x)
+do
+ for j in $(seq 0 $d)
+ do
+  echo -n " "
+ done
+ echo -n "*"
+ for j in $(seq 0 $e)
+ do
+  echo -n " "
+ done
+ echo "*"
+ let d=d-1
+ let e=e+2
+done
