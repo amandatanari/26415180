@@ -1,87 +1,31 @@
-import thread
-from Tampilan import *
+import socket, threading
 
-HOST = string2 = open('ip2.txt', 'r').read()
-string3 = open('port2.txt', 'r').read()
-PORT = int(string3)
-s = socket(AF_INET, SOCK_STREAM)
+def send():
+    while True:
+        msg = raw_input(uname +' > ')
+        cli_sock.send(msg)
 
+def receive():
+    while True:
+        sen_name = cli_sock.recv(1024)
+        data = cli_sock.recv(1024)
 
-def ClickAction():
-	#Write message to chat window
-	EntryText = FilteredMessage(EntryBox.get("0.0",END))
-	LoadMyEntry(ChatLog, EntryText)
+        print('\n' + str(sen_name) + ' > ' + str(data))
 
-	#Scroll to the bottom of chat windows
-	ChatLog.yview(END)
+if __name__ == "__main__":   
+    # socket
+    cli_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-	#Erace previous message in Entry Box
-	EntryBox.delete("0.0",END)
-				
-	#Send my mesage to all others
-	s.sendall(EntryText)
+    # connect
+    HOST = 'localhost'
+    PORT = 5023
+    cli_sock.connect((HOST, PORT))     
+    print('Connected to server')
+    uname = raw_input('Input Nama : ')
+    cli_sock.send(uname)
 
-def PressAction(event):
-	EntryBox.config(state=NORMAL)
-	ClickAction()
-def DisableEntry(event):
-	EntryBox.config(state=DISABLED)
+    thread_send = threading.Thread(target = send)
+    thread_send.start()
 
-#Buat window
-base = Tk()
-base.title('Informatika UKP Chat')
-base.iconbitmap('icon.ico')
-base.geometry("600x470")
-base.resizable(width=FALSE, height=FALSE)
-
-#Buat chat window
-ChatLog = Text(base, bd=0, bg="#55afd9", height="8", width="50", font="Arial",)
-ChatLog.insert(END," ")
-ChatLog.config(state=DISABLED)
-
-#Scroll bar di chat window
-scrollbar = Scrollbar(base, command=ChatLog.yview, cursor="pirate")
-ChatLog['yscrollcommand'] = scrollbar.set
-
-#Buat Button untuk send message
-SendButton = Button(base, font=30, text="Send", width="12", height=5,bd=0, bg="#841e08", activebackground="#841e08",command=ClickAction)
-
-#Buat box untuk enter message
-EntryBox = Text(base, bd=0, bg="#93bccf",width="39", height="5", font="Arial")
-EntryBox.bind("<Return>", DisableEntry)
-EntryBox.bind("<KeyRelease-Return>", PressAction)
-
-#Menempatkan Posisi
-scrollbar.place(x=572,y=6, height=386)
-ChatLog.place(x=6,y=6, height=386, width=570)
-EntryBox.place(x=6, y=401, height=60, width=465)
-SendButton.place(x=480, y=401, height=60)
-
-
-def ReceiveData():
-	try:
-		s.connect((HOST, PORT))
-		LoadConnectionInfo(ChatLog, '                                              [ Succesfully connected ]\n-----------------------------------------------------------------------------------------------------------------')
-	except:
-		LoadConnectionInfo(ChatLog, '											   [ Tidak bisa join ]\n-----------------------------------------------------------------------------------------------------------------')
-		return
-		
-	while 1:
-		try:
-			data = s.recv(1024)
-		except:
-			LoadConnectionInfo(ChatLog, '\n [ lawan chatmu disconnect ] \n')
-			break
-		if data != '':
-			LoadOtherEntry(ChatLog, data)
-			if base.focus_get() == None:
-				playsound('notif.wav')
-					
-		else:
-			LoadConnectionInfo(ChatLog, '\n [ lawan chatmu disconnect ] \n')
-			break
-
-thread.start_new_thread(ReceiveData,())
-
-base.mainloop()
-
+    thread_receive = threading.Thread(target = receive)
+    thread_receive.start()
